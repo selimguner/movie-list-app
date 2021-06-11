@@ -1,15 +1,27 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+
+interface Movie {
+  title: string,
+  poster: string,
+  rating: string
+}
 
 @Component({
   selector: 'movie-card',
   templateUrl: './movie-card.component.html',
   styleUrls: ['./movie-card.component.scss']
 })
-export class MovieCardComponent implements OnInit {
+export class MovieCardComponent {
+  @Input() movie: any;
+  @Output() edit = new EventEmitter();
+  @Output() delete = new EventEmitter();
 
-  constructor() { }
+  openEditDialog(movie: Movie) {
+    this.edit.emit(movie);
+  }
 
-  ngOnInit(): void {
+  deleteMovieFromList(movie: Movie) {
+    this.delete.emit(movie);
   }
 
 }

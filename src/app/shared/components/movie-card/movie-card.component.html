@@ -1,9 +1,9 @@
 <div class="movie">
-    <div class="rating">9.2</div>
-    <img class="poster" src="https://m.media-amazon.com/images/M/MV5BZDhlMzY0ZGItZTcyNS00ZTAxLWIyMmYtZGQ2ODg5OWZiYmJkXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_SX500.jpg">
+    <div class="rating">{{movie.Rating}}</div>
+    <img class="poster" [src]="movie.Poster">
     <div class="content">
-        <span class="title">The Mandalorian</span>
-        <span class="action edit">Düzenle</span>  
+        <span class="title">{{movie.Title}}</span>
+        <span class="action edit" (click)="openEditDialog(movie)">Düzenle</span>  
         <span class="action delete">Listeden Kaldır</span>
     </div>
 </div>

@@ -6,16 +6,16 @@
 <div mat-dialog-content>
   <div class="form-content">
     <img class="poster"
-      src="https://m.media-amazon.com/images/M/MV5BZDhlMzY0ZGItZTcyNS00ZTAxLWIyMmYtZGQ2ODg5OWZiYmJkXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_SX500.jpg">
-    <form class="form">
+      [src]="movie.Poster">
+    <form class="form" [formGroup]="movieForm">
       <div class="item">
-        <input type="text">
+        <input type="text" name="title" formControlName="title">
       </div>
       <div class="item">
-        <input type="text">
+        <input type="text" name="poster"  formControlName="poster">
       </div>
       <div class="item">
-        <input type="text">
+        <input type="text" name="rating" formControlName="rating">
       </div>
     </form>
   </div>
@@ -23,5 +23,5 @@
 <div mat-dialog-actions>
   <button s-button  mat-dialog-close>Vazgeç</button>
   <div class="flex-spacer"></div>
-  <button s-button class="primary" cdkFocusInitial>Kaydet</button>
+  <button s-button class="primary" cdkFocusInitial (click)="addMyList()">Kaydet</button>
 </div>

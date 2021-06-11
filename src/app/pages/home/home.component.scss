@@ -30,7 +30,7 @@ $card-row-limit: 5; // bir satırda gösterilecek film sayısı.
   margin-bottom: 30px;
 
   .item {
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(var(--filter-bg-color), .75);
     padding: 4px;
     border-radius: 5px;
     margin-right: 5px;
@@ -87,17 +87,6 @@ $card-row-limit: 5; // bir satırda gösterilecek film sayısı.
 
   .more {
     width: 350px;
-    padding: 15px;
-    border: none;
-    border-radius: 5px;
-    outline: none;
-    background: rgba(0, 0, 0, 0.75);
-    color: #fff;
-    transition: .2s;
-    cursor: pointer;
-
-    &:hover {
-      background: rgba(0, 0, 0, 1);
-    }
+    background: #e4e4e4;
   }
 }

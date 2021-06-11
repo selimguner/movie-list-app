@@ -7,13 +7,11 @@ import { ThemeService } from '../core/services/theme.service';
   styleUrls: ['./layout.component.scss']
 })
 export class LayoutComponent implements OnInit {
-  isLightTheme: boolean = false;
-  constructor(private theme: ThemeService) {
+  constructor() {
 
   }
 
   ngOnInit(): void {
-    this.theme.getLightTheme().subscribe(res => { this.isLightTheme = res; });
   }
 
 }

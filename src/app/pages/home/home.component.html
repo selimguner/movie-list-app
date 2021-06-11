@@ -25,19 +25,10 @@
 </div>
 </div>
 <div class="content">
-    <movie-card></movie-card>
-    <movie-card></movie-card>
-    <movie-card></movie-card>
-    <movie-card></movie-card>
-    <movie-card></movie-card>
-    <movie-card></movie-card>
-    <movie-card></movie-card>
-    <movie-card></movie-card>
-    <movie-card></movie-card>
-    <movie-card></movie-card>
+    <movie-card *ngFor="let movie of movies" [movie]="movie" (edit)="openEditDialog($event)" (delete)="deleteMovie($event)"></movie-card>
 </div>
 <div class="footer">
-    <button class="more">
+    <button s-button class="more">
         Daha Fazla
     </button>
 </div>
