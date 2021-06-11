@@ -1,0 +1,9 @@
+<div class="movie">
+    <div class="rating">{{movie.Rating}}</div>
+    <img class="poster" [src]="movie.Poster">
+    <div class="content">
+        <span class="title">{{movie.Title}}</span>
+        <span class="action edit" (click)="openEditDialog(movie)">Düzenle</span>  
+        <span class="action delete">Listeden Kaldır</span>
+    </div>
+</div>

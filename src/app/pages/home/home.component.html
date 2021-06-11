@@ -1,0 +1,34 @@
+<div class="filters">
+  <div class="item">
+      <div class="genres">
+          <button class="toggle-button active" matTooltip="Müzikal" matTooltipClass="primary-tooltip" matTooltipPosition="above">
+            <img src="../../../assets/icon.svg">
+          </button>
+          <button class="toggle-button icon-button">
+            <img src="../../../assets/icon.svg">
+          </button>
+          <button class="toggle-button icon-button">
+            <img src="../../../assets/icon.svg">
+          </button>
+          <button class="toggle-button icon-button">
+            <img src="../../../assets/icon.svg">
+          </button>
+      </div>
+  </div>
+  <div class="item">
+    <input type="text" class="search" placeholder="Liste içinde ara...">
+</div>
+<div class="flex-spacer"></div>
+<div class="item">
+    <button class="toggle-button"  matTooltip="Puana Göre Sırala" matTooltipClass="primary-tooltip" matTooltipPosition="above"><mat-icon>arrow_downward</mat-icon></button>
+  
+</div>
+</div>
+<div class="content">
+    <movie-card *ngFor="let movie of movies" [movie]="movie" (edit)="openEditDialog($event)" (delete)="deleteMovie($event)"></movie-card>
+</div>
+<div class="footer">
+    <button s-button class="more">
+        Daha Fazla
+    </button>
+</div>

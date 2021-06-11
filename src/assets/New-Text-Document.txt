@@ -1,0 +1,937 @@
+
+<!DOCTYPE HTML>
+<html lang="tr-TR">
+
+<head>
+
+<title>MARKUM WEB HOSTING, Cloud VPS VDS Hosting, Kiralık Sunucu, Domain Tescili</title>
+<META content="Markum Web Hosting, Cloud VPS VDS Hosting, Kiralık Sunucu, Domain Tescili, Domain Transfer, SSL Sertifikası, E-Ticaret" name=description>
+<META content="Web Hosting, Hosting, windows hosting, linux hosting, vps sunucu, vds sunucu, ASP Hosting, php hosting, asp.net, sunucu, kiralık sunucu, mail, ASP, PHP, webmaster,reseller, Bayi Hosting, e-ticaret, ssl" name=keywords>
+<META content="Markum.net" name="creator">
+<META content="Markum.net" name="publisher">
+<META content=All name="AUDIENCE">
+<META content="2 days" name="REVISIT-AFTER">
+<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+<meta http-equiv="pragma" content="no-cache">
+<meta name="verify-v1" content="WyEsIeHU04Q5HuiGO4aoT5RNrrnuCjjgOLjufBPApDY=">
+<META http-equiv=Content-Type content="text/html; charset=windows-1254">  
+<meta name="markum1" content="1" />
+<meta name="markum2" content="4000" />
+<link rel="stylesheet" href="https://www.markum.net/images/css/2012/08/reset.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="https://www.markum.net/images/css/2012/08/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="https://www.markum.net/images/css/2012/08/global.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="https://www.markum.net/images/css/2012/08/colorbox.css" type="text/css" media="screen" />
+
+<script src="https://www.markum.net/images/js/08/jquery.js" type="text/javascript"></script>
+<script src="https://www.markum.net/images/js/08/custom.js" type="text/javascript"></script>
+<script src="https://www.markum.net/images/js/08/jquery.min.js" type="text/javascript"></script>
+<script src="https://www.markum.net/images/js/08/jquery.boxy.js" type="text/javascript"></script>
+<script src="https://www.markum.net/images/js/08/jquery.colorbox.js"></script>
+<script src="https://www.markum.net/images/js/08/jquery.bgiframe.min.js" type="text/javascript"></script>
+<script src="https://www.markum.net/images/js/08/jquery.multiSelect.js" type="text/javascript"></script>
+<script src="https://www.markum.net/images/js/tabs.js"></script>
+<style type="text/css">.ask{ display:block; width: 970px; height: 744px; position: absolute; left: 50%; top:165px;  margin-left: -485px; z-index:9999; }</style>
+<script> $(function() { $('a.close').click(function() { $($(this).attr('href')).slideUp(); return false; }); }); </script>
+
+<style type="text/css">
+
+</style>
+</head>
+<body id="ss_A" class="ss_A">
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="top"> 
+      <table width="100%" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td id="ss_B" class="ss_B" >
+		<table width='100%' cellspacing='0' cellpadding='0'><tr>
+     <td class="c_LHS8_B" style=""><div id="header"> 
+    <div id="ustBolge">
+
+        <div id="userBox">
+                <ul>
+                    <li><a href="#" class="uyeGiris"><b>Üye Girişi</b></a></li>
+                    <li><a href="https://www.markum.net/uye/yeniuye.asp"><b>Yeni Üyelik Oluştur</b></a></li>
+                    <li><a href="https://www.markum.net/sepet/sepet.asp" class="noBorder sepetim">Sepetim </a></li>
+                </ul>
+         </div>
+         <fieldset id="uyeGiris">
+        <FORM method=post name=form1 action="https://www.markum.net/list/list.asp?MARKUM-WEB-HOSTING-Cloud-VPS-VDS-Hosting-Kiralik-Sunucu-Domain-Tescili=&ktgr_id=471" target=_top>
+
+           <input id="uyeGirisKutu" name="user" type="text" value="Kullanıcı Adı" onfocus="if(this.value=='Kullanıcı Adı'){this.value=''};" onblur="if(this.value==''){this.value='Kullanıcı Adı'};">
+           <input id="uyeGirisKutu" name="pass" value="Parola" autocomplete="off" type="password" onfocus="if(this.value=='Parola'){this.value=''};" onblur="if(this.value==''){this.value='Parola'};">
+<INPUT name=Submit value=Giriş type=hidden> <INPUT name=ex value=true type=hidden>            
+<input id="uyeGirisButton" value="Giriş Yap" type="submit">
+            
+           <p class="sifreUnuttum"><a class="iframe" href="https://www.markum.net/uye/pass.asp">Şifremi Unuttum?</a></p>
+
+        </form>
+        </fieldset><div id="logo"><a href="../list/list.asp?MARKUM-WEB-HOSTING-Cloud-VPS-VDS-Hosting-Kiralik-Sunucu-Domain-Tescili=&ktgr_id=471"><img src="../images/2012/08/markumLogo.png" alt="Markum Logo"></a></div><!--/logo-->
+          <div id="hizliBolge">
+             <ul>
+                <li class="telefon"><a href="../site/page.asp?dsy_id=1473&t=Markum_%DDletisim_Kroki">0 (216) <strong>651 84 80</strong></a></li>
+                <li class="ticket"><a href="../uye/ticket.asp">7/24 <strong>Ticket</strong> Oluştur</a></li>
+             </ul>
+             
+         </div>
+         
+         <div id="hizliMenu">
+             	<a href="#" class="hizliMenuButton"><span>Hızlı Menü</span></a>
+                <div id="hizliMenuAcik">
+                <ul>
+                    <li><img src="../images/2012/08/iconSepet.png" /> <a href="../uye/ticket_yeni_ekle.asp?t=2&konu_id=17">Ödeme Bildirimi</a></li>
+                    <li><img src="../images/2012/08/iconHesap.png" /><a href="../list/list.asp?ktgr_id=361">Banka Hesapları</a></li>
+                    <li><img src="../images/2012/08/iconOrtaklik.png" /><a href="../list/list.asp?Satis-Ortakligi-Programi=&ktgr_id=474">Ortaklık Programı</a></li>
+                    <li><img src="../images/2012/08/iconBlog.png" /><a href="http://blog.markum.net" target="_blank">Markum Blog</a></li>
+                    <li><img src="../images/2012/08/iconYardim.png" /><a href="../list/list.asp?ktgr_id=240">Yardım</a></li>
+                    <li><img src="../images/2012/08/iconIletisim.png" /><a href="../site/page.asp?dsy_id=1473&t=Markum_%DDletisim_Kroki">İletişim</a></li>
+                </ul>
+                <div class="clear"></div>
+
+                <div class="arama">
+            <form action="../ara/bul.asp" method="get" target="_top">
+                <input type="text" name="ara" value="Arama Yap..." onfocus="if(this.value=='Arama Yap...'){this.value=''};" onblur="if(this.value==''){this.value='Arama Yap...'};" id="araInput2"> 
+                <input type="submit" id="araButton" value=""></form></div>
+</div>
+                </div><!--/hizliMenuAcik-->
+               </div><!--/hizliMenu-->
+               
+    </div><!--/ustBolge-->
+</td>
+</tr></table><table width='100%' cellspacing='0' cellpadding='0'><tr>
+<style type="text/css">
+.c_LHS20_B{}
+.c_LHS20_A{}
+.c_LHS20_link{color:#ffffff;font-family:Arial;font-size:14px;text-decoration:none;font-weight:bolder;}
+.c_LHS20_link:hover{text-decoration:underline;color:#ff8000;}
+.c_LHS20_link:link{color:#ffffff}
+.c_LHS20_link:visited{color:#ffffff}
+.c_LHS20_link:active{}
+.c_LHS20_link_kategori_aktif:link{}
+.c_LHS20_link_kategori_aktif{}
+.c_LHS20_link_ustKategori{color:#ffffff}
+.c_LHS20_link_ustKategori_aktif{}
+
+</style>
+
+     <td class="c_LHS20_B" style=""><div class="clear"></div>
+<div class="markumMenu_kap"> 
+  <ul class="markumMenu"> 
+    <li class="anasayfa"><a href="../list/list.asp?MARKUM-WEB-HOSTING-Cloud-VPS-VDS-Hosting-Kiralik-Sunucu-Domain-Tescili=&ktgr_id=471"><span>Anasayfa</span></a></li> 
+    <li class="domain"><span>Domain Tescil</span> 
+      <div class="subMenu"> 
+        <div class="altMenu" style="width: 300px;  margin-top: auto; margin-left: auto;"> 
+          <div class="ustKose"> 
+            <div></div> 
+          </div> 
+          <div class="menuIcerik" style="height:65px;"> <img src="../images/2012/08/iconDomain.png" /> 
+            <h1><a href="../domain/domaintescil.asp">Domain Tescil</a></h1> 
+            <ul> 
+              <li>130+ Domain Uzantısı</li> 
+            </ul> 
+          </div> 
+          <div class='altKose'> 
+            <div></div> 
+          </div> 
+        </div> 
+        <div class="altMenu" style="width: 300px; margin-top: auto;"> 
+          <div class="ustKose"> 
+            <div></div> 
+          </div> 
+          <div class="menuIcerik" style="height:65px;"> <img src="../images/2012/08/iconTr.png" /> 
+            <h1><a href="../domain/domaintescil.asp?ara=trtescil">.TR Uzantılı Tescil</a></h1> 
+            <ul> 
+              <li>1 Günde Tescil</li> 
+            </ul> 
+          </div> 
+          <div class='altKose'> 
+            <div></div> 
+          </div> 
+        </div> 
+        <div class="altMenu" style="width: 300px; margin-top: auto;"> 
+          <div class="ustKose"> 
+            <div></div> 
+          </div> 
+          <div class="menuIcerik" style="height:65px;"> <img src="../images/2012/08/iconTransfer.png" /> 
+            <h1><a href="../domain/domaintescil.asp?ara=DomainTransfer">Domain Transfer</a></h1> 
+            <ul> 
+              <li>Markum Kalitesine Geçin</li> 
+            </ul> 
+          </div> 
+          <div class='altKose'> 
+            <div></div> 
+          </div> 
+        </div> 
+        <div class="altMenu" style="width: 300px;  margin-left: auto;"> 
+          <div class="ustKose"> 
+            <div></div> 
+          </div> 
+          <div class="menuIcerik" style="height:65px;"> <img src="../images/2012/08/iconWhois.png" /> 
+            <h1><a href="../domain/domaintescil.asp?ara=DomainWhois">Whois</a></h1> 
+            <ul> 
+              <li>Domain Kime Ait Öğrenin</li> 
+            </ul> 
+          </div> 
+          <div class='altKose'> 
+            <div></div> 
+          </div> 
+        </div> 
+        <div class="altMenu" style="width: 300px;"> 
+          <div class="ustKose"> 
+            <div></div> 
+          </div> 
+          <div class="menuIcerik" style="height:65px;"> <img src="../images/2012/08/iconDolar.png" /> 
+            <h1><a href="../domain/domaintescil.asp?ara=DomainFiyatlariVeAciklamalar">Fiyatlar ve Açıklamalar</a></h1> 
+            <ul> 
+              <li>130+ Farklı Domain</li> 
+            </ul> 
+          </div> 
+          <div class='altKose'> 
+            <div></div> 
+          </div> 
+        </div> 
+<div class="altMenu" style="width: 300px;"> 
+          <div class="ustKose"> 
+            <div></div> 
+          </div> 
+          <div class="menuIcerik" style="height:65px;"> <img src="../images/2012/08/iconMarka.png" /> 
+            <h1><a href="../list/list.asp?marka=marka_tescili&ktgr_id=662">Marka Tescil</a></h1> 
+            <ul> 
+              <li>Hizmet bedeli 99TL+KDV ile aynı gün başvuru imkanı</li> 
+            </ul> 
+          </div> 
+          <div class='altKose'> 
+            <div></div> 
+          </div> 
+        </div> 
+
+      </div> 
+    </li> 
+    <!--/domain--> 
+    <li class="hosting"><span>Hosting Çözümleri</span> 
+      <div class="subMenu"> 
+        <div class="altMenu" style="width: 300px;  margin-top: auto; margin-left: auto;"> 
+          <div class="ustKose"> 
+            <div></div> 
+          </div> 
+          <div class="menuIcerik" style="height:65px;"> <img src="../images/2012/08/iconWindows.png" /> 
+            <h1><a href="../list/list.asp?Windows-Hosting-Linux-Hosting-Sinirsiz-Hosting=&ktgr_id=296">Windows Hosting</a></h1> 
+            <ul> 
+              <li>IIS7, ASP, MVC3, MVC4, ASP.NET 2.0/4.0 ve PHP deneyimini aynı platformda.</a></li> 
+            </ul> 
+          </div> 
+          <div class='altKose'> 
+            <div></div> 
+          </div> 
+        </div> 
+        <div class="altMenu" style="width: 300px; margin-top: auto;"> 
+          <div class="ustKose"> 
+            <div></div> 
+          </div> 
+          <div class="menuIcerik" style="height:65px;"> <img src="../images/2012/08/iconLinux2.png" /> 
+            <h1><a href="../list/list.asp?Linux-Hosting=&ktgr_id=432">Linux Hosting</a></h1> 
+            <ul> 
+              <li>cPanel, PHP5, MySQL5, Zend, ionCube, Crontab ve daha fazlası. </li> 
+            </ul> 
+          </div> 
+          <div class='altKose'> 
+            <div></div> 
+          </div> 
+        </div> 
+        <div class="altMenu" style="width: 300px; margin-top: auto;"> 
+          <div class="ustKose"> 
+            <div></div> 
+          </div> 
+          <div class="menuIcerik" style="height:65px;"> <img src="../images/2012/08/iconCms.png" /> 
+            <h1><a href="../list/list.asp?ktgr_id=298&t=Reseller-Hosting-Bayi-Hosting-Windows-Linux">Reseller Hosting</a></h1> 
+            <ul> 
+              <li><a href="../list/list.asp?Windows-Reseller-(Bayi)-Hosting=&ktgr_id=433">Windows Reseller</a></li> 
+              <li><a href="../list/list.asp?Linux-Reseller-(Bayi)-Hosting=&ktgr_id=434">Linux Reseller</a></li> 
+			                <li>İki platform tek fiyat! Mutlaka inceleyin.</li>
+            </ul> 
+          </div> 
+          <div class='altKose'> 
+            <div></div> 
+          </div> 
+        </div>
+<div class="altMenu" style="width: 300px; margin-left: auto;"> 
+          <div class="ustKose"> 
+            <div></div> 
+          </div> 
+          <div class="menuIcerik" style="height:65px;"> <img src="../images/2012/08/iconCms.png" /> 
+            <h1><a href="../list/list.asp?ktgr_id=514&t=Drupal-Joomla-Wordpress">Hazır CMS</a></h1> 
+            <ul> 
+              <li><a href="../list/list.asp?Wordpress-Hosting=&ktgr_id=512">Wordpress</a></li> 
+              <li><a href="../list/list.asp?Drupal-Hosting-Turkiye-Drupal-Host=&ktgr_id=513">Drupal</a></li> 
+              <li><a href="../list/list.asp?Joomla-Hosting=&ktgr_id=473">Joomla</a></li> 
+            </ul> 
+          </div> 
+          <div class='altKose'> 
+            <div></div> 
+          </div> 
+        </div>		 
+        <div class="altMenu" style="width: 300px;"> 
+          <div class="ustKose"> 
+            <div></div> 
+          </div> 
+          <div class="menuIcerik" style="height:65px;"> <img src="../images/2012/08/iconSql.png" /> 
+            <h1><a href="../list/list.asp?ktgr_id=505&t=Microsoft-SQL-Hosting">MS SQL Hosting</a></h1> 
+            <ul> 
+              <li><a href="../list/list.asp?Microsoft-SQL-Server-2005-Database-Hosting=&ktgr_id=348">MS Sql 2005</a></li> 
+              <li><a href="../list/list.asp?Microsoft-SQL-Server-2008-Database-Hosting=&ktgr_id=502">MS Sql 2008</a></li> 
+            </ul> 
+          </div> 
+          <div class='altKose'> 
+            <div></div> 
+          </div> 
+        </div> 
+        <div class="altMenu" style="width: 300px;"> 
+          <div class="ustKose"> 
+            <div></div> 
+          </div> 
+          <div class="menuIcerik" style="height:65px;"> <img src="../images/2012/08/icon-eticaret2.png" /> 
+            <h1><a href="../list/list.asp?E-Ticaret-Hosting-Cozumleri=&ktgr_id=657">E-Ticaret Hosting</a></h1> 
+            <ul> 
+              <li>Proticaret, Prestashop, OpenCart e-ticaret çözümleri.</li> 
+            </ul> 
+          </div> 
+          <div class='altKose'> 
+            <div></div> 
+          </div> 
+        </div> 
+      </div> 
+    </li> 
+    <!--/hosting--> 
+    <li class="sunucu"><span>Sunucu Çözümleri</span> 
+      <div class="subMenu"> 
+        <div class="altMenu" style="width: 300px;  margin-top: auto; margin-left: auto;"> 
+          <div class="ustKose"> 
+            <div></div> 
+          </div> 
+          <div class="menuIcerik" style="height:65px;"> <img src="../images/2012/08/icon4.png" /> 
+            <h1><a href="../list/list.asp?VPS-VDS-Kiralik-Sunucu-Aylik-24.99$-dan-baslayan-fiyatlarla=&ktgr_id=457">Dedicated Server</a></h1> 
+            <ul> 
+              <li><a href="../list/list.asp?Microsoft-Hyper-V-Cloud-VDS-Server=&ktgr_id=508">Windows Dedicated</a></li> 
+              <li><a href="../list/list.asp?VDS-Linux-Dedicated-Server=&ktgr_id=510">Linux Dedicated</a></li> 
+            </ul> 
+          </div> 
+          <div class='altKose'> 
+            <div></div> 
+          </div> 
+        </div> 
+        <div class="altMenu" style="width: 300px; margin-top: auto;"> 
+          <div class="ustKose"> 
+            <div></div> 
+          </div> 
+          <div class="menuIcerik" style="height:65px;"> <img src="../images/2012/08/iconMail.png" /> 
+            <h1><a href="../list/list.asp?Kurumsal-Mail-Server=&ktgr_id=615">Kurumsal Mail Server</a></h1> 
+            <ul> 
+              <li>Size Özel Mail Server</li> 
+            </ul> 
+          </div> 
+          <div class='altKose'> 
+            <div></div> 
+          </div> 
+        </div> 
+        <div class="altMenu" style="width: 300px; margin-top: auto;"> 
+          <div class="ustKose"> 
+            <div></div> 
+          </div> 
+          <div class="menuIcerik" style="height:65px;"> <img src="../images/2012/08/icon4.png" /> 
+            <h1><a href="../list/list.asp?ktgr_id=582">Hazır Mail Server</a></h1> 
+            <ul> 
+              <li>Sanallaştırılmış Mail Server</li> 
+            </ul> 
+          </div> 
+          <div class='altKose'> 
+            <div></div> 
+          </div> 
+        </div> 
+        <div class="altMenu" style="width: 300px;  margin-left: auto;"> 
+          <div class="ustKose"> 
+            <div></div> 
+          </div> 
+          <div class="menuIcerik" style="height:65px;"> <img src="../images/2012/08/icon4.png" /> 
+            <h1><a href="../list/list.asp?ktgr_id=582">Hazır Web Server</a></h1> 
+            <ul> 
+              <li>Sanallaştırılmış Web Server</li> 
+            </ul> 
+          </div> 
+          <div class='altKose'> 
+            <div></div> 
+          </div> 
+        </div> 
+        <div class="altMenu" style="width: 300px;"> 
+          <div class="ustKose"> 
+            <div></div> 
+          </div> 
+          <div class="menuIcerik" style="height:65px;"> <img src="../images/2012/08/icon4.png" /> 
+            <h1><a href="../list/list.asp?ktgr_id=582">Hazır Host Server</a></h1> 
+            <ul> 
+              <li>Sanallaştırılmış Mail Server</li> 
+            </ul> 
+          </div> 
+          <div class='altKose'> 
+            <div></div> 
+          </div> 
+        </div> 
+        <div class="altMenu" style="width: 300px;"> 
+          <div class="ustKose"> 
+            <div></div> 
+          </div> 
+          <div class="menuIcerik" style="height:65px;"> <img src="../images/2012/08/iconPlus.png" /> 
+            <h1><a href="../list/list.asp?ktgr_id=589">Sunucu Eklentileri</a></h1> 
+            <ul> 
+              <li>Ram, HDD, İşlemci, IP , Panel, Mail Server</li> 
+            </ul> 
+          </div> 
+          <div class='altKose'> 
+            <div></div> 
+          </div> 
+        </div> 
+      </div> 
+    </li> 
+    <!--/sunucu--> 
+    <li class="mail"><span>Mail Çözümleri</span> 
+      <div class="subMenu"> 
+        <div class="altMenu" style="width: 300px;  margin-top: auto; margin-left: auto;"> 
+          <div class="ustKose"> 
+            <div></div> 
+          </div> 
+          <div class="menuIcerik" style="height:65px;"> <img src="../images/2012/08/iconMail.png" /> 
+            <h1><a href="../list/list.asp?Kurumsal-E-Mail-Hosting=&ktgr_id=616">CloudSpace Kurumsal Mail</a></h1> 
+            <ul> 
+              <li>Stabil, Güvenli ve Hızlı E-mail</li> 
+            </ul> 
+          </div> 
+          <div class='altKose'> 
+            <div></div> 
+          </div> 
+        </div> 
+        <div class="altMenu" style="width: 300px; margin-top: auto;"> 
+          <div class="ustKose"> 
+            <div></div> 
+          </div> 
+          <div class="menuIcerik" style="height:65px;"> <img src="../images/2012/08/icon4.png" /> 
+            <h1><a href="../list/list.asp?Kurumsal-Mail-Server=&ktgr_id=615">Kurumsal Mail Server</a></h1> 
+            <ul> 
+              <li>Size Özel Mail Serveri</li> 
+            </ul> 
+          </div> 
+          <div class='altKose'> 
+            <div></div> 
+          </div> 
+        </div> 
+        <div class="altMenu" style="width: 300px; margin-top: auto;"> 
+          <div class="ustKose"> 
+            <div></div> 
+          </div> 
+          <div class="menuIcerik" style="height:65px;"> <img src="../images/2012/08/iconBulten.png" /> 
+            <h1><a href="../list/list.asp?Toplu-Mail-Gonderim-E-mail-Marketing-/-E-Bulten-Yonetimi=&ktgr_id=572">E-Bülten Çözümü</a></h1> 
+            <ul> 
+              <li>Profesyonel Mailing Servisi</li> 
+            </ul> 
+          </div> 
+          <div class='altKose'> 
+            <div></div> 
+          </div> 
+        </div> 
+      </div> 
+    </li> 
+    <!--/mail--> 
+    <li class="ssl"><span>SSL & Güvenlik</span> 
+      <div class="subMenu"> 
+        <div class="altMenu" style="width: 300px;  margin-top: auto; margin-left: auto;"> 
+          <div class="ustKose"> 
+            <div></div> 
+          </div> 
+          <div class="menuIcerik" style="height:65px;"> <img src="../images/2012/08/iconLock.png" /> 
+            <h1><a href="../list/list.asp?Comodo-SSL-=&ktgr_id=595">COMODO SSL</a></h1> 
+            <ul> 
+              <li>99$'dan Başlayan Fiyatlar</li> 
+            </ul> 
+          </div> 
+          <div class='altKose'> 
+            <div></div> 
+          </div> 
+        </div> 
+        <div class="altMenu" style="width: 300px; margin-top: auto;"> 
+          <div class="ustKose"> 
+            <div></div> 
+          </div> 
+          <div class="menuIcerik" style="height:65px;"> <img src="../images/2012/08/iconLock.png" /> 
+            <h1><a href="../list/list.asp?RapidSSL=&ktgr_id=596">Rapid SSL</a></h1> 
+            <ul> 
+              <li>22$'dan Başlayan Fiyatlar</li> 
+            </ul> 
+          </div> 
+          <div class='altKose'> 
+            <div></div> 
+          </div> 
+        </div> 
+        <div class="altMenu" style="width: 300px; margin-top: auto;"> 
+          <div class="ustKose"> 
+            <div></div> 
+          </div> 
+          <div class="menuIcerik" style="height:65px;"> <img src="../images/2012/08/iconLock.png" /> 
+            <h1><a href="../list/list.asp?GlobalSign-SSL-Sertifikasi-=&ktgr_id=594">Global Sign SSL</a></h1> 
+            <ul> 
+              <li>349'dan Başlayan Fiyatlar</li> 
+            </ul> 
+          </div> 
+          <div class='altKose'> 
+            <div></div> 
+          </div> 
+        </div> 
+      </div> 
+    </li> 
+    <!--/ssl--> 
+    <li class="diger"><span>Diğer Hizmetler</span> 
+      <div class="subMenu"> 
+        <div class="altMenu" style="width: 300px;  margin-top: auto; margin-left: auto;"> 
+          <div class="ustKose"> 
+            <div></div> 
+          </div> 
+          <div class="menuIcerik" style="height:65px;"> <img src="../images/2012/08/iconPlus.png" /> 
+            <h1><a href="../list/list.asp?ktgr_id=321&t=Hosting-Hizmet-Eklentileri">Hosting Eklentileri</a></h1> 
+            <ul> 
+              <li>6 Farklı Eklenti</li> 
+            </ul> 
+          </div> 
+          <div class='altKose'> 
+            <div></div> 
+          </div> 
+        </div> 
+        <div class="altMenu" style="width: 300px; margin-top: auto;"> 
+          <div class="ustKose"> 
+            <div></div> 
+          </div> 
+          <div class="menuIcerik" style="height:65px;"> <img src="../images/2012/08/iconPlus.png" /> 
+            <h1><a href="../list/list.asp?ktgr_id=345">Extra Trafik</a></h1> 
+            <ul> 
+              <li>1.99 $'dan Başlayan Fiyatlarla</li> 
+            </ul> 
+          </div> 
+          <div class='altKose'> 
+            <div></div> 
+          </div> 
+        </div> 
+        <div class="altMenu" style="width: 300px; margin-top: auto;"> 
+          <div class="ustKose"> 
+            <div></div> 
+          </div> 
+          <div class="menuIcerik" style="height:65px;"> <img src="../images/2012/08/iconPlus.png" /> 
+            <h1><a href="../list/list.asp?ktgr_id=346">Extra Web Alanı</a></h1> 
+            <ul> 
+              <li>17.99 $'dan Başlayan Fiyatlarla</li> 
+            </ul> 
+          </div> 
+          <div class='altKose'> 
+            <div></div> 
+          </div> 
+        </div> 
+        <div class="altMenu" style="width: 300px;  margin-left: auto;"> 
+          <div class="ustKose"> 
+            <div></div> 
+          </div> 
+          <div class="menuIcerik" style="height:65px;"> <img src="../images/2012/08/iconTransfer.png" /> 
+            <h1><a href="../list/list.asp?ktgr_id=475">Paket Yükseltme</a></h1> 
+            <ul> 
+              <li>İstediğiniz Yükseltmeyi Yapın</li> 
+            </ul> 
+          </div> 
+          <div class='altKose'> 
+            <div></div> 
+          </div> 
+        </div> 
+        <div class="altMenu" style="width: 300px;"> 
+          <div class="ustKose"> 
+            <div></div> 
+          </div> 
+          <div class="menuIcerik" style="height:65px;"> <img src="../images/2012/08/iconBackup.png" /> 
+            <h1><a href="../list/list.asp?ktgr_id=614">Yedekleme Çözümleri</a></h1> 
+            <ul> 
+              <li>İşinizi Şansa Bırakmayın!</li> 
+            </ul> 
+          </div> 
+          <div class='altKose'> 
+            <div></div> 
+          </div> 
+        </div> 
+        <div class="altMenu" style="width: 300px;"> 
+          <div class="ustKose"> 
+            <div></div> 
+          </div> 
+          <div class="menuIcerik" style="height:65px;"> <img src="../images/2012/08/iconMarka.png" /> 
+            <h1><a href="../list/list.asp?marka=marka_tescili&ktgr_id=662">Marka Tescil</a></h1> 
+            <ul> 
+              <li>Hizmet bedeli 99TL+KDV ile aynı gün başvuru imkanı</li> 
+            </ul> 
+          </div> 
+          <div class='altKose'> 
+            <div></div> 
+          </div> 
+        </div> 
+      </div> 
+    </li> 
+    <!--/diger--> 
+    <li class="kurumsal"><span>Markum Kurumsal</span> 
+      <div class="subMenu"> 
+        <div class="altMenu" style="width: 300px;  margin-top: auto; margin-left: auto;"> 
+          <div class="ustKose"> 
+            <div></div> 
+          </div> 
+          <div class="menuIcerik" style="height:65px;"> <img src="../images/2012/08/iconMarkum.png" /> 
+            <h1><a href="../list/list.asp?markum.net-Hakkinda=&ktgr_id=354">Markum.net Hakkında</a></h1> 
+            <ul> 
+              <li>12 Senedir Hizmet Veriyoruz</li> 
+            </ul> 
+          </div> 
+          <div class='altKose'> 
+            <div></div> 
+          </div> 
+        </div> 
+        <div class="altMenu" style="width: 300px; margin-top: auto;"> 
+          <div class="ustKose"> 
+            <div></div> 
+          </div> 
+          <div class="menuIcerik" style="height:65px;"> <img src="../images/2012/08/iconMarkum.png" /> 
+            <h1><a href="../list/list.asp?ktgr_id=360&t=Kurumsal-Degerlerimiz">Kurumsal Değerlerimiz</a></h1> 
+            <ul> 
+              <li>Güvenilirlik & Sorumluluk</li> 
+            </ul> 
+          </div> 
+          <div class='altKose'> 
+            <div></div> 
+          </div> 
+        </div> 
+        <div class="altMenu" style="width: 300px; margin-top: auto;"> 
+          <div class="ustKose"> 
+            <div></div> 
+          </div> 
+          <div class="menuIcerik" style="height:65px;"> <img src="../images/2012/08/iconDestek.png" /> 
+            <h1><a href="../list/list.asp?ktgr_id=363&t=Musteri-Hizmetleri">Müşteri Hizmetleri</a></h1> 
+            <ul> 
+              <li>7/24 Ticket Desteği</li> 
+            </ul> 
+          </div> 
+          <div class='altKose'> 
+            <div></div> 
+          </div> 
+        </div> 
+        <div class="altMenu" style="width: 300px;  margin-left: auto;"> 
+          <div class="ustKose"> 
+            <div></div> 
+          </div> 
+          <div class="menuIcerik" style="height:65px;"> <img src="../images/2012/08/iconKariyer.png" /> 
+            <h1><a href="../list/list.asp?ktgr_id=352&t=Is-Basvurusu-is-ilanlari-:-Satis-Temsilcisi-Hostmaster-Musteri-Destek-Uzmanlari">Kariyer Fırsatları</a></h1> 
+            <ul> 
+              <li>Kariyer Hedefleriniz İçin</li> 
+            </ul> 
+          </div> 
+          <div class='altKose'> 
+            <div></div> 
+          </div> 
+        </div> 
+        <div class="altMenu" style="width: 300px;"> 
+          <div class="ustKose"> 
+            <div></div> 
+          </div> 
+          <div class="menuIcerik" style="height:65px;"> <img src="../images/2012/08/iconMarkum.png" /> 
+            <h1><a href="../list/list.asp?ktgr_id=359&t=Bayilik-Basvuru-Formu">Bayilik Başvurusu</a></h1> 
+            <ul> 
+              <li>Bayimiz Olun</li> 
+            </ul> 
+          </div> 
+          <div class='altKose'> 
+            <div></div> 
+          </div> 
+        </div> 
+        <div class="altMenu" style="width: 300px;"> 
+          <div class="ustKose"> 
+            <div></div> 
+          </div> 
+          <div class="menuIcerik" style="height:65px;"> <img src="../images/2012/08/iconDolar.png" /> 
+            <h1><a href="../list/list.asp?ktgr_id=474&t=Satis-Ortakligi-Programi">Satış Ortaklığı</a></h1> 
+            <ul> 
+              <li>Her Üyeden 1$ Kazanın!</li> 
+            </ul> 
+          </div> 
+          <div class='altKose'> 
+            <div></div> 
+          </div> 
+        </div> 
+      </div> 
+    </li> 
+    <!--/kurumsal--> 
+  </ul> 
+  <!--/markumMenu--> 
+</div>
+<!--/markumMenu_kap--> </td>
+   </tr></table>
+	  </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+ <tr>
+  <td align="center">
+   <table width="970" height="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td valign="top" align="left">
+	 
+	    <div class="user_panel_wrapper">
+		      
+	<fieldset>      
+
+<div class="clear"></div>
+<style type="text/css">
+.td_kategoriResmi{vertical-align:top}.yol_site{font-family:Arial;font-size:13px;font-weight:bold;color:#000000;}.yol_site:hover{font-weight:bold;}.yol_ustKategoriler{color:#808080;font-weight:bold;font-family:Arial;font-size:13px;}.yol_aktifKategori{color:#c0c0c0;font-weight:bold;font-family:Arial;font-size:13px;}.yol_aktifKategori:hover{}.yol_ustKategoriler:hover{}.td_yol{padding:2px;border-bottom-style:solid;border-bottom-width:2px;border-bottom-color:#f5f3eb;}.body_sayfa{}.table_list{}.td_list{width:50%;vertical-align:top;}.td_list_ustKategori{padding:3px}.td_kategoriAciklamasi{}.td_list_altKategoriler{}.list_ustKategori{font-family:Arial;font-size:13px;font-weight:bold;color:#0000ff;}.list_altKategoriler{color:#808080;font-size:9pt;}.yol_ustKategoriler:link{}.list_altKategoriler:link{color:#808080;font-size:9pt;}.list_altKategoriler:visited{}.list_altKategoriler:active{}.list_altKategoriler:hover{text-decoration:underline;}.araclar_sayfa{}.yol_site:link{}.yol_site:visited{}.yol_site:active{}.yol_ustKategoriler:active{}.yol_aktifKategori:link{color:#ff0000;font-weight:bold}.list_ustKategori:link{}.araclar_sayfa:link{}.yol_ustKategoriler:visited{}.yol_aktifKategori:active{}.yol_aktifKategori:visited{}.table_kategori{}.td_kategori{}.list_ustKategori:hover{}.list_ustKategori:visited{color:#0000ff}.k_Not_Ust{}.k_Not_Alt{}
+</style>
+<div id="sayfa">
+<div class="k_Not_Ust"><DIV class=container>
+<DIV id=featured>
+<DIV class="featured_item current">
+<DIV class=featured_image><A href="../list/list.asp?E-Mail-Hosting-E-Posta-Hosting-Kurumsal-Mail-Server-Antivirus-Antispam-Webmail=&ktgr_id=300"><IMG alt="" src="https://www.markum.net/images/2012/banner/kurumsalBanner.png"></A> </DIV><!--/featured_item--></DIV><!--/featured_image-->
+<DIV class="featured_item">
+<DIV class=featured_image><A href="../list/list.asp?Kurumsal-E-Mail-Hosting=&ktgr_id=616"><IMG alt="" src="https://www.markum.net/images/2012/08/cloudspace-banner.jpg"></A> </DIV><!--/featured_item--></DIV><!--/featured_image-->
+<DIV class="featured_item">
+<DIV class=featured_image><A href="../list/list.asp?ktgr_id=295&t=Windows-Hosting-Linux-Hosting-Sinirsiz-Domain&Limitsiz"><IMG alt="" src="https://www.markum.net/images/2012/banner/limitsiz-banner.jpg"></A> </DIV><!--/featured_item--></DIV><!--/featured_image-->
+<DIV class="featured_item">
+<DIV class=featured_image><A href="../list/list.asp?E-Ticaret-Hosting-Cozumleri=&ktgr_id=657"><IMG alt="" src="https://www.markum.net/images/2012/banner/eticaret-banner.jpg"></A> </DIV><!--/featured_item--></DIV><!--/featured_image-->
+
+
+
+<DIV class="featured_item">
+<DIV class=featured_image><A href="../list/list.asp?marka=marka_tescili&ktgr_id=662"><IMG alt="" src="https://www.markum.net/images/2012/banner/marka-tescil.png"></A> </DIV><!--/featured_item--></DIV><!--/featured_image-->
+
+<DIV class=featured_item>
+<DIV class=featured_image><A href="https://www.markum.net/list/list.asp?MARKUM-WEB-HOSTING-Cloud-VPS-VDS-Hosting-Kiralik-Sunucu-Domain-Tescili=&ktgr_id=471"><IMG alt="" src="https://www.markum.net/images/2012/banner/banner01.jpg"></A> </DIV><!--/featured_item--></DIV>
+<DIV class=featured_item>
+<DIV class=featured_image><A href="../list/list.asp?ktgr_id=298&t=Reseller-Hosting-Bayi-Hosting-Windows-Linux"><IMG alt="" src="https://www.markum.net/images/2012/banner/goldbayi.jpg"></A> </DIV><!--/featured_item--></DIV><!--/featured_image-->
+
+ 
+<DIV class=preview_images>   <A class=current_prev href="https://www.markum.net/"><IMG alt="" src="https://www.markum.net/images/2012/banner/kurumsalBannerKucuk.png"></A> <A href="../list/list.asp?Kurumsal-E-Mail-Hosting=&ktgr_id=616"><IMG alt="" src="https://www.markum.net/images/2012/08/cloudspace-banner1.png"></A> <A href="../list/list.asp?ktgr_id=295&t=Windows-Hosting-Linux-Hosting-Sinirsiz-Domain&Limitsiz"><IMG alt="" src="https://www.markum.net/images/2012/banner/limitsiz-kucuk.png"></A> <A href="../list/list.asp?E-Ticaret-Hosting-Cozumleri=&ktgr_id=657"><IMG alt="" src="https://www.markum.net/images/2012/banner/eticaret-kucuk.png"></A>  <A href="https://www.markum.net/"><IMG alt="" src="https://www.markum.net/images/2012/banner/marka-tescil-k.png"></A> <A href="../list/list.asp?ktgr_id=298&t=Reseller-Hosting-Bayi-Hosting-Windows-Linux"><IMG alt="" src="https://www.markum.net/images/2012/banner/kucuk_banner01.png"></A> <A href="../list/list.asp?Kurumsal-Mail-Server=&ktgr_id=615"><IMG alt="" src="https://www.markum.net/images/2012/banner/40indirim.png"></A>  </DIV><!--/preview_images--></DIV><!--/featured-->
+<FORM method=post action=../domain/domaintescil.asp target=_top>
+<DIV id=alanAdi>
+<DIV id=alanAdiSorgula><INPUT id=alanAdiInput name=domain_name x-webkit-speech="x-webkit-speech"> <SELECT id=alanAdiSelect name=uzanti_1_1> <OPTION selected value=com_0>.com</OPTION> <OPTION value=net_0>.net</OPTION> <OPTION value=org_0>.org</OPTION> <OPTION value=co_0>.co</OPTION> <OPTION value=biz_0>.biz</OPTION> <OPTION value=info_0>.info</OPTION> <OPTION value=tv_0>.tv</OPTION> <OPTION value=eu_0>.eu</OPTION> <OPTION value=us_0>.us</OPTION> <OPTION value=tel_0>.tel</OPTION> <OPTION value=mobi_0>.mobi</OPTION> <OPTION value=name_0>.name</OPTION> <OPTION value=xxx_1>.xxx</OPTION> <OPTION value=com.tr_0>.com.tr</OPTION> <OPTION value=net.tr_0>.net.tr</OPTION> <OPTION value=org.tr_0>.org.tr</OPTION> <OPTION value=bel.tr_0>.bel.tr</OPTION> <OPTION value=gov.tr_0>.gov.tr</OPTION> <OPTION value=gen.tr_0>.gen.tr</OPTION> <OPTION value=biz.tr_0>.biz.tr</OPTION> <OPTION value=info.tr_0>.info.tr</OPTION> <OPTION value=name.tr_0>.name.tr</OPTION> <OPTION value=tv.tr_0>.tv.tr</OPTION> <OPTION value=bbs.tr_0>.bbs.tr</OPTION> <OPTION value=tel.tr_0>.tel.tr</OPTION> <OPTION value=pol.tr_0>.pol.tr</OPTION> <OPTION value=mil.tr_0>.mil.tr</OPTION> <OPTION value=k12.tr_0>.k12.tr</OPTION> <OPTION value=edu.tr_0>.edu.tr</OPTION> <OPTION value=av.tr_0>.av.tr</OPTION> <OPTION value=dr.tr_0>.dr.tr</OPTION> <OPTION value=ac_0>.ac</OPTION> <OPTION value=asia_0>.asia</OPTION> <OPTION value=at_0>.at</OPTION> <OPTION value=be_0>.be</OPTION> <OPTION value=bz_0>.bz</OPTION> <OPTION value=ca_0>.ca</OPTION> <OPTION value=cc_0>.cc</OPTION> <OPTION value=cd_0>.cd</OPTION> <OPTION value=co_0>.co</OPTION> <OPTION value=com.co_0>.com.co</OPTION> <OPTION value=net.co_0>.net.co</OPTION> <OPTION value=com.ua_0>.com.ua</OPTION> <OPTION value=" com.uy_0">. com.uy</OPTION> <OPTION value=co.in_0>.co.in</OPTION> <OPTION value=co.uk_0>.co.uk</OPTION>
+    <option value="co.za_0">.co.za</option> 
+    <OPTION value=cx_0>.cx</OPTION> <OPTION value=de_0>.de</OPTION> <OPTION value=dk_0>.dk</OPTION> <OPTION value=es_0>.es</OPTION> <OPTION value=eu_0>.eu</OPTION> <OPTION value=gen.in_0>.gen.in</OPTION> <OPTION value=gd_0>.gd</OPTION> <OPTION value=gg_0>.gg</OPTION> <OPTION value=gs_0>.gs</OPTION> <OPTION value=hn_0>.hn</OPTION> <OPTION value=im_0>.im</OPTION> <OPTION value=in_0>.in</OPTION> <OPTION value=ind.in_0>.ind.in</OPTION> <OPTION value=io_0>.io</OPTION> <OPTION value=je_0>.je</OPTION> <OPTION value=jp_0>.jp</OPTION> <OPTION value=la_0>.la</OPTION> <OPTION value=lc_0>.lc</OPTION> <OPTION value=li_0>.li</OPTION> <OPTION value=me_0>.me</OPTION> <OPTION value=mn_0>.mn</OPTION> <OPTION value=ms_0>.ms</OPTION> <OPTION value=mu_0>.mu</OPTION> <OPTION value=mx_0>.mx</OPTION> <OPTION value=my_0>.my</OPTION> <OPTION value=net.in_0>.net.in</OPTION> <OPTION value=nl_0>.nl</OPTION> <OPTION value=nu_0>.nu</OPTION> <OPTION value=qa_0>.qa</OPTION> <OPTION value=fm_0>.fm</OPTION> <OPTION value=pe_0>.pe</OPTION> <OPTION value=pl_0>.pl</OPTION> <OPTION value=sc_0>.sc</OPTION> <OPTION value=sh_0>.sh</OPTION> <OPTION value=so_0>.so</OPTION> <OPTION value=st_0>.st</OPTION> 
+
+
+<OPTION value=" tl_0">.tl</OPTION> <OPTION value=tm_0>.tm</OPTION> <OPTION value=tw_0>.tw</OPTION> <OPTION value=us_0>.us</OPTION> <OPTION value=ws_0>.ws</OPTION>
+</SELECT> </DIV><INPUT id=alanAdiButton type=submit value=" " name=ara> 
+<UL id=alanAdiLink>
+<LI><A href="../domain/domaintescil.asp">Tüm Uzantılar</A></LI>
+<LI><A href="../domain/domaintescil.asp?ara=DomainTransfer">Domain Transfer</A></LI>
+<LI><A href="../domain/domaintescil.asp?ara=DomainFiyatlariVeAciklamalar">Fiyatlar ve Açıklamalar</A></LI>
+<LI class=noBorder><A href="../domain/domaintescil.asp?ara=DomainWhois"><B>Whois</B></A></LI></UL></DIV></FORM>
+<DIV id=aciklamalar>
+<UL>
+<LI>
+<H1>DENEYİMLİ</H1>
+<P class=deneyimli>12 Yılda 130.000+ alan adına<BR>hizmet verdik, 12 yılda<BR>sektörün lider<BR>firmalarından <BR>biri olmayı başardık.</P></LI>
+<LI>
+<H1>GÜÇLÜ</H1>
+<P class=guclu>Güçlü donanım, yazılım ve <BR>Turkcell Superonline<BR>datacenter altyapısıyla,<BR>12 yılda 50.000+ siteye<BR>hosting hizmeti verdik.</P></LI>
+<LI>
+<H1>GÜVENİLİR</H1>
+<P class=guvenli>30.000+ Müşteri referansı ile sektörün en güvenilir,<BR>en fazla tercih edilen firmalarından biri<BR>olmayı başardık.</P></LI>
+<LI>
+<H1>HIZLI</H1>
+<P class=hizli>Müşteri odaklı çalışma anlayışı, çözüm odaklı destek,<BR>güçlü altyapı ile <BR>yüksek performans<BR>seçenekleri sunuyoruz.</P></LI>
+<LI>
+<H1>YERLİ</H1>
+<P class=yerli>Türkiye'nin insan kaynaklarına önem veriyoruz. %100<BR>Türk Sermayesi ile<BR>kurulmuş, tüm birimleri<BR>ve altyapısı Türkiye'de.</P></LI></UL></DIV>
+<DIV class=clear></DIV>
+<DIV id=paketler>
+<UL>
+<LI>
+<H1>Windows Hosting</H1><IMG src="../images/2012/08/windowsLogo.png"> 
+<P>IIS7.5 ile<BR>ASP.Net 1/2/3/4.0,<BR>ASP ve PHP5<BR>desteği aynı sunucuda</P><SPAN><A href="../list/list.asp?ktgr_id=296&t=Windows-Hosting-Linux-Hosting-Sinirsiz-Hosting">Paketleri Göster</A></SPAN> </LI>
+<LI>
+<H1>Linux Hosting</H1><IMG src="../images/2012/08/iconLinux.png"> 
+<P>cPanel, PHP5, MySQL 5, Apache 2.0 ile<BR>%100 performans uygulama uyumluluğu</P><SPAN><A href="../list/list.asp?ktgr_id=432&t=Linux-Hosting-Turkiye">Paketleri Göster</A></SPAN> </LI>
+<LI>
+<H1>Bayi Hosting</H1><IMG src="../images/2012/08/iconBayi.png"> 
+<P>Windows ve Linux hosting aynı pakette,<BR>Limitsiz domain host etme fırsatı</P><SPAN><A href="../list/list.asp?ktgr_id=298&t=Reseller-Hosting-Bayi-Hosting-Windows-Linux">Paketleri Göster</A></SPAN> </LI>
+<LI>
+<H1>Kiralık Sunucu</H1><IMG src="../images/2012/08/iconSunucu.png"> 
+<P>Windows & Linux <BR>VDS Çözümleri ile maximum performans minimum maliyet</P><SPAN><A href="../list/list.asp?ktgr_id=457&t=VPS-VDS-Kiralik-Sunucu-Aylik-24.99$-dan-baslayan-fiyatlarla">Paketleri Göster</A></SPAN> </LI>
+<LI style="MARGIN-RIGHT: auto">
+<H1>SSL Sertifikası</H1><IMG src="../images/2012/08/iconSSL.png"> 
+<P>RapidSSL<BR>Comodo SSL<BR>GlobalSign<BR>256Bit SSL Sertifikası</P><SPAN><A href="../list/list.asp?SSL-Sertifikasi-Satin-Al=&ktgr_id=332">Paketleri Göster</A></SPAN> </LI></UL></DIV>
+<DIV class=clear></DIV></DIV>
+<div style="height:20px;"></div></div>
+
+<table WIDTH="100%" cellpadding="0" cellspacing="0"  class="table_kategori">
+<tr>
+
+</table>
+
+<script type="text/javascript">
+
+ function sps_resimGoster(sps_id){
+     if(eval("sps_resim_" + sps_id) != "")(window.open(eval("sps_resim_" + sps_id),"_blanck"))
+}
+</script>
+
+</div>
+	</fieldset>
+	</div>
+      </td>
+      
+    </tr>
+   </table>
+  </td>
+ </tr>
+</table>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+ <tr>
+  <td align="center">
+   <table width="970" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+     <td id="ss_F" class="ss_F" valign="top">
+      <table width='100%' cellspacing='0' cellpadding='0'><tr>
+<style type="text/css">
+.c_LHS4_B{}
+.c_LHS4_A{}
+.c_LHS4_link{}
+.c_LHS4_link:hover{background-color:#3399ff;text-decoration:none;}
+.c_LHS4_link:link{}
+.c_LHS4_link:visited{}
+.c_LHS4_link:active{}
+
+</style>
+
+     <td class="c_LHS4_B" style=""><a href="https://www.markum.net/list/list.asp?marka=marka_tescili&ktgr_id=662"><img src="https://www.markum.net/images/2012/08/marka_tescili_ab.jpg"></a></td>
+   </tr></table><table width='100%' cellspacing='0' cellpadding='0'><tr>
+     <td class="c_LHS8_B" style="text-align:left"><div id="footer">
+    <div id="footerUst">
+        <div id="blog"><strong>Markum Blog: </strong><a href="http://blog.markum.net/genel/markum-nete-ulasmanin-10-yolu.html" target="_blank">Markum.net'e Ulaşmanın 10 Yolu</a></div>
+        <div id="ara">
+<form action="https://www.markum.net/ara/bul.asp" method="post" target="_top">
+<input type="text" name="ara" value="Arama Yap..." onfocus="if(this.value=='Arama Yap...'){this.value=''};" onblur="if(this.value==''){this.value='Arama Yap...'};" id="araInput">  <input name=ara2 type="submit" id="araButton" value=""> 
+</form></div>
+    </div>
+    <div id="footerOrta">
+        <ul>
+        <li style="height:18px;"><strong>Domain Tescil</strong></li>
+        <li><a href="../domain/domaintescil.asp">Domain Tescil</a></li>
+        <li><a href="../domain/domaintescil.asp?ara=DomainTransfer">Domain Transfer</a></li>
+        <li><a href="../domain/domaintescil.asp?ara=DomainWhois">Whois</a></li>
+        <li><a href="../site/page.asp?dsy_id=1377">Domain Sözleşmesi</a></li>
+        </ul>
+        <ul>
+        <li style="height:18px;"><strong>Hosting Çözümleri</strong></li>
+        <li><a href="../list/list.asp?ktgr_id=295&t=Windows-Hosting-Linux-Hosting-Sinirsiz-Hosting">Bireysel Hosting</a></li>
+        <li><a href="../list/list.asp?ktgr_id=295&t=Windows-Hosting-Linux-Hosting-Sinirsiz-Hosting">Kurumsal Hosting</a></li>
+        <li><a href="../list/list.asp?E-Mail-Hosting=&ktgr_id=616">E-Mail Hosting</a></li>
+        <li style="height:10px;"></li>
+        <li><a href="../list/list.asp?Drupal-Hosting-Turkiye-Drupal-Host=&ktgr_id=513">Drupal Hosting</a></li>
+        <li><a href="../list/list.asp?Joomla-Hosting=&ktgr_id=473">Joomla Hosting</a></li>
+        <li><a href="../list/list.asp?Wordpress-Hosting=&ktgr_id=512">Wordpress Hosting</a></li>
+        </ul>
+        <ul>
+        <li style="height:18px;"><strong>Sunucu Hizmetleri</strong></li>
+        <li><a href="../list/list.asp?Microsoft-Hyper-V-VDS-Server=&ktgr_id=508">Windows VDS</a></li>
+        <li><a href="../list/list.asp?Linux-Dedicated-Server=&ktgr_id=510">Linux VDS</a></li>
+        <li><a href="../list/list.asp?VDI-Windows7-Office-2010-Hosting-Uzak-Masaustu-Sunucusu=&ktgr_id=580">VDI Uzak Masaüstü</a></li>
+        <li style="height:10px;"></li>
+        <li style="height:18px;"><strong>Paket Çözümleri</strong></li>
+        <li><a href="../list/list.asp?VDS-Sunucu=&ktgr_id=582">Mail Server</a></li>
+        <li><a href="../list/list.asp?VDS-Sunucu=&ktgr_id=582">Web Server</a></li>
+        <li><a href="../list/list.asp?VDS-Sunucu=&ktgr_id=582">Host Server</a></li>
+        </ul>
+        <ul>
+        <li style="height:18px;"><strong>Kurumsal</strong></li>
+        <li><a href="../list/list.asp?markum.net-Hakkinda=&ktgr_id=354">Hakkımızda</a></li>
+        <li><a href="../site/page.asp?dsy_id=1473">İletişim</a></li>
+        <li><a href="../list/list.asp?Musteri-Hizmetleri=&ktgr_id=363">Müşteri Hizmetleri</a></li>
+        <li><a href="../list/list.asp?ktgr_id=359">Bayilik</a></li>
+        <li style="height:10px;"></li>
+        <li><a href="../list/list.asp?Is-Basvurusu-is-ilanlari-:-Reklam-Metin-Yazari-Musteri-Hizmetleri-Call-Center-Webmaster-ariyoruz=&ktgr_id=352"><strong>Kariyer Fırsatları</strong></a></li>
+		<li style="height:10px;"></li>
+        <li><a href="../list/list.asp?ktgr_id=361">Banka Hesapları</a></li>
+        <li><a href="../list/list.asp?ktgr_id=574&t=Kurumsal-Logolar">Kurumsal Logolar</a></li>
+        </ul>
+        <div id="social">
+        <ul>
+            <li><iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fmarkumnet&send=false&layout=box_count&width=80&show_faces=false&action=recommend&colorscheme=light&font=arial&height=61" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:61px;" allowTransparency="true"></iframe> <a href="https://twitter.com/markumnet" class="twitter-follow-button" data-show-count="false" data-lang="tr" data-show-screen-name="false">Takip et: @markumnet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></li>
+        </ul>
+       <ul>
+           <li><a href="http://fb.me/markumnet" target="_blank"><img src="../images/2012/08/facebook.png"></a></li>
+           <li><a href="http://twitter.com/markumnet" target="_blank"><img src="../images/2012/08/twitter.png"></a></li>
+           <li><a href="https://plus.google.com/116865732079396725237" rel="publisher" target="_blank"><img src="../images/2012/08/gplus.png"></a></li>
+           <li><a href="../site/page.asp?dsy_id=1473"><img src="../images/2012/08/mail.png"></a></li>
+           <li><a href="http://blog.markum.net" target="_blank"><img src="../images/2012/08/blog.png"></a></li>
+       </ul>
+        </div>
+    </div>
+    <div id="footerAlt">
+  <ul id="telFax">
+       <li class="telefon">0 (216) <strong>651 84 80</strong></li>
+       <li class="fax">0 (216) <strong>651 84 83</strong></li>
+     </ul>
+     <div id="adres">Mahir İz Cad. 8/7 Altunizade/Üsküdar - İstanbul</div>
+     <div class="clear"></div>
+     <div id="footerLogos"><img src="../images/2012/08/footerLogos.jpg" /></div>
+     <div id="footerCopy">Copyright © 2012 Markum.net<br /><a href="../site/page.asp?dsy_id=1376">Kullanıcı Sözleşmesi</a> | <a href="../list/list.asp?ktgr_id=240">Yardım</a></div>
+    </div>
+
+</div>
+      
+</div><!--/container-->
+</td>
+   </tr></table>
+     </td>
+     </tr>
+   </table>
+  </td>
+ </tr>
+</table>
+<div id="kariyerOrta"><a href="https://www.markum.net/list/list.asp?ktgr_id=352">Markum.net Kariyer</a></div>
+<div id="satisDanismani"><!-- http://www.LiveZilla.net Chat Button Link Code --> <a href="javascript:void(window.open('https://online.markum.net/livezilla.php?reset=true','','width=590,height=590,left=0,top=0,resizable=yes,menubar=no,location=no,status=yes,scrollbars=yes'))"><IMG border=0 alt="LiveZilla Live Help" src="https://online.markum.net/image.php?id=04"></a></div>
+<div id="livezilla_tracking" style="display:none">
+<script type="text/javascript">var script = document.createElement("script");script.type="text/javascript";var src = "https://online.markum.net/server.php?request=track&output=jcrpt&reset=true&nse="+Math.random();setTimeout("script.src=src;document.getElementById('livezilla_tracking').appendChild(script)",1);</script>
+</div>
+<!-- Google Code for Markum.net Conversion Page -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1029138287;
+var google_conversion_language = "tr";
+var google_conversion_format = "3";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "3RLDCM3m9wIQ787d6gM";
+var google_conversion_value = 0;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/1029138287/?value=0&label=3RLDCM3m9wIQ787d6gM&guid=ON&script=0"/>
+</div>
+</noscript>
+<script type="text/javascript">
+var fb_param = {};
+fb_param.pixel_id = '6007298184809';
+fb_param.value = '0.00';
+(function(){
+  var fpw = document.createElement('script');
+  fpw.async = true;
+  fpw.src = '//connect.facebook.net/en_US/fp.js';
+  var ref = document.getElementsByTagName('script')[0];
+  ref.parentNode.insertBefore(fpw, ref);
+})();
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/offsite_event.php?id=6007298184809&amp;value=0" /></noscript>
+</body>
+</html>
+-

@@ -1,0 +1,28 @@
+{
+  "movies": [
+    {
+      "Title": "The Lord of the Rings: The Fellowship of the Ring",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SX300.jpg",
+      "Rating": "10",
+      "id": 1
+    },
+    {
+      "Title": "The Lord of the Rings: The Fellowship of the Ring",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SX300.jpg",
+      "Rating": "2",
+      "id": 2
+    },
+    {
+      "Title": "The Matrix",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+      "Rating": "3",
+      "id": 3
+    },
+    {
+      "Title": "The Matrix Reloaded",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BODE0MzZhZTgtYzkwYi00YmI5LThlZWYtOWRmNWE5ODk0NzMxXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+      "Rating": "2",
+      "id": 4
+    }
+  ]
+}

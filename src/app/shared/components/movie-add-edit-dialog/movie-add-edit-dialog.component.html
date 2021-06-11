@@ -1,0 +1,27 @@
+<div mat-dialog-title>Ekle
+  <button s-button class="icon-button" mat-dialog-close>
+    <mat-icon>close</mat-icon>
+  </button>
+</div>
+<div mat-dialog-content>
+  <div class="form-content">
+    <img class="poster"
+      [src]="movie.Poster">
+    <form class="form" [formGroup]="movieForm">
+      <div class="item">
+        <input type="text" name="title" formControlName="title">
+      </div>
+      <div class="item">
+        <input type="text" name="poster"  formControlName="poster">
+      </div>
+      <div class="item">
+        <input type="text" name="rating" formControlName="rating">
+      </div>
+    </form>
+  </div>
+</div>
+<div mat-dialog-actions>
+  <button s-button  mat-dialog-close>Vazgeç</button>
+  <div class="flex-spacer"></div>
+  <button s-button class="primary" cdkFocusInitial (click)="addMyList()">Kaydet</button>
+</div>
