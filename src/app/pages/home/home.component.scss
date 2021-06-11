@@ -1,0 +1,103 @@
+$card-row-limit: 5; // bir satırda gösterilecek film sayısı.
+
+.content {
+  display: grid;
+  grid-template-columns: repeat($card-row-limit, minmax(150px, 1fr));
+  grid-gap: 10px;
+  transition: 450ms transform;
+
+  movie-card {
+    &:first-child {
+      transform-origin: center left;
+    }
+
+    &:nth-child(#{$card-row-limit}n) {
+      transform-origin: center right;
+    }
+
+    &:nth-child(#{$card-row-limit+1}n) {
+      transform-origin: center left;
+    }
+  }
+}
+
+
+
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+
+  .item {
+    background: rgba(0, 0, 0, 0.75);
+    padding: 4px;
+    border-radius: 5px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    .toggle-button {
+      background: rgb(255, 255, 255, 25%);
+      border: none;
+      outline: none;
+      width: 34px;
+      height: 34px;
+      border-radius: 5px;
+      padding: 7px;
+      margin-right: 5px;
+      cursor: pointer;
+      box-sizing: border-box;
+
+      &:hover {
+        background: rgb(255, 255, 255, 50%);
+      }
+
+      &.active {
+        background: #FFE800;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    .search {
+      background: none;
+      border: none;
+      width: 150px;
+      height: 34px;
+      padding: 7px;
+      outline: none;
+      color: #fff;
+    }
+  }
+}
+
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+
+  .more {
+    width: 350px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    transition: .2s;
+    cursor: pointer;
+
+    &:hover {
+      background: rgba(0, 0, 0, 1);
+    }
+  }
+}

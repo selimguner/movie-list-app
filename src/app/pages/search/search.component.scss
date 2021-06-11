@@ -1,0 +1,139 @@
+.search {
+  margin: 50px auto;
+  max-width: 750px;
+
+  &>.title {
+    display: block;
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: bolder;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+
+  input {
+    background: #fff;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    outline: none;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .list-box {
+    position: relative;
+    top: 10px;
+    background: #fff;
+    border-radius: 10px;
+    transition: .2s;
+
+    box-sizing: border-box;
+
+    .history {
+      position: relative;
+      padding: 35px 10px 10px 10px;
+
+      &::before {
+        content: attr(data-title);
+        position: absolute;
+        top: 10px;
+        left: 20px;
+        color: #4c4c4c;
+        font-size: 11px;
+        font-weight: 500;
+        text-transform: uppercase;
+      }
+
+      .item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        box-sizing: border-box;
+        cursor: pointer;
+        color: #000;
+
+        span {
+          font-size: 12px;
+          color: blue;
+          cursor: pointer;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+
+        &:hover {
+          background: rgba($color: #000000, $alpha: .1);
+        }
+      }
+    }
+
+    .results {
+      position: relative;
+      padding: 35px 10px 10px 10px;
+
+      &::before {
+        content: attr(data-title);
+        position: absolute;
+        top: 10px;
+        left: 20px;
+        color: #4c4c4c;
+        font-size: 11px;
+        font-weight: 500;
+        text-transform: uppercase;
+      }
+
+      .item {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 7px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        cursor: pointer;
+
+        &:hover {
+          background: rgba($color: #000000, $alpha: .1);
+        }
+
+        img {
+          margin-right: 10px;
+          border-radius: 10px;
+          height: 75px;
+          width: 50px;
+          object-fit: cover;
+        }
+
+        .text {
+          display: flex;
+          flex-direction: column;
+
+          span {
+            display: block;
+            color: #000;
+
+            &.title {
+              font-size: 16px;
+              font-weight: 500;
+            }
+
+            &.info {
+              font-size: 11px;
+              font-style: italic;
+              opacity: .7;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+}

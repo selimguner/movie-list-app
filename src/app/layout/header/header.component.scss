@@ -1,0 +1,92 @@
+:host {
+  grid-area: header;
+
+  header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 100%;
+    user-select: none;
+
+    .logo {
+      width: 33.333%;
+      text-align: center;
+      margin-top: -10px;
+
+      svg {
+        cursor: pointer;
+        transition: .2s;
+
+        &:hover {
+          #svg_10 {
+            animation: .2s linear infinite normal forwards running blink;
+          }
+        }
+      }
+    }
+
+    @keyframes blink {
+      0% {
+        opacity: 1;
+      }
+
+      49.75% {
+        opacity: 1;
+      }
+
+      50.25% {
+        opacity: 0;
+      }
+
+      99.5% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    .menu {
+      display: flex;
+      align-items: center;
+      width: 33.333%;
+
+      .item {
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: uppercase;
+        position: relative;
+        cursor: pointer;
+        margin-right: 20px;
+        color: #acacac;
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        &:hover {
+          color: #cacaca;
+        }
+
+        &.active {
+          color: #fff;
+
+          &:before {
+            content: '';
+            position: absolute;
+            border-bottom: 3px solid #FFE800;
+            width: 20px;
+            left: calc(50% - 10px);
+            bottom: -3px;
+          }
+        }
+      }
+    }
+
+    .dark-mode {
+      width: 33.333%;
+      text-align: right;
+    }
+  }
+}

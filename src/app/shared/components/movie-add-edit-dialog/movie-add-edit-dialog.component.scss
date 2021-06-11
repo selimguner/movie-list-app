@@ -1,0 +1,22 @@
+.form-content {
+  display: flex;
+  box-sizing: border-box;
+  margin: 10px 0;
+
+  .poster {
+    width: 100px;
+    height: 150px;
+    margin-right: 10px;
+    border-radius: 10px;
+  }
+
+  .form {
+    flex: 1;
+
+    input {
+      width: 100%;
+      margin-bottom: 5px;
+    }
+  }
+
+}

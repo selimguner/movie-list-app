@@ -1,0 +1,27 @@
+:host {
+  max-width: 1600px;
+  margin: auto;
+  padding: 0 15px;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 150px 1fr;
+  grid-template-areas:
+    "header"
+    "main";
+
+  .main {
+    grid-area: main;
+  }
+
+  .bg {
+    left: 0;
+    right: 0;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    user-select: none;
+    background: linear-gradient(0deg, rgba(28, 28, 35, 1) 0%, rgba(28, 28, 35, .9) 100%), url('https://m.media-amazon.com/images/M/MV5BZDhlMzY0ZGItZTcyNS00ZTAxLWIyMmYtZGQ2ODg5OWZiYmJkXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_SX2000.jpg');
+    background-size: cover;
+    background-position: center center;
+  }
+}
