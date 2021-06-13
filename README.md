@@ -2,11 +2,11 @@
 
 - Angular v12 
 - OMDb API
-- JSON-SERVER
+- JSON Server
 
 ## Kurulum
 
-Fake backend için [JSON-SERVER](https://github.com/typicode/json-server) kurulmalıdır.
+Fake backend için [JSON Server](https://github.com/typicode/json-server) kurulmalıdır.
 
 ```
  npm install -g json-server 
