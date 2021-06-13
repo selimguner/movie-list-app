@@ -4,6 +4,6 @@
     <div class="content">
         <span class="title">{{movie.Title}}</span>
         <span class="action edit" (click)="openEditDialog(movie)">Düzenle</span>  
-        <span class="action delete">Listeden Kaldır</span>
+        <span class="action delete" (click)="deleteMovieFromList(movie)">Listeden Sil</span>
     </div>
 </div>

@@ -26,7 +26,6 @@ $card-row-limit: 5; // bir satırda gösterilecek film sayısı.
 .filters {
   display: flex;
   align-items: center;
-  justify-content: center;
   margin-bottom: 30px;
 
   .item {
@@ -69,21 +68,22 @@ $card-row-limit: 5; // bir satırda gösterilecek film sayısı.
     .search {
       background: none;
       border: none;
-      width: 150px;
+      width: 250px;
       height: 34px;
       padding: 7px;
       outline: none;
-      color: #fff;
+      color: var(--color-text)
     }
   }
 }
+
 
 
 .footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 30px 0;
+  margin-top: 30px;
 
   .more {
     width: 350px;

@@ -1,34 +1,75 @@
 <div class="filters">
-  <div class="item">
-      <div class="genres">
-          <button class="toggle-button active" matTooltip="Müzikal" matTooltipClass="primary-tooltip" matTooltipPosition="above">
-            <img src="../../../assets/icon.svg">
-          </button>
-          <button class="toggle-button icon-button">
-            <img src="../../../assets/icon.svg">
-          </button>
-          <button class="toggle-button icon-button">
-            <img src="../../../assets/icon.svg">
-          </button>
-          <button class="toggle-button icon-button">
-            <img src="../../../assets/icon.svg">
-          </button>
-      </div>
+  <div class="item" *ngIf="false">
+    <div class="genres">
+      <button class="toggle-button active" matTooltip="Müzikal" matTooltipClass="primary-tooltip"
+        matTooltipPosition="above">
+        <img src="../../../assets/icon.svg">
+      </button>
+      <button class="toggle-button icon-button">
+        <img src="../../../assets/icon.svg">
+      </button>
+      <button class="toggle-button icon-button">
+        <img src="../../../assets/icon.svg">
+      </button>
+      <button class="toggle-button icon-button">
+        <img src="../../../assets/icon.svg">
+      </button>
+    </div>
   </div>
   <div class="item">
-    <input type="text" class="search" placeholder="Liste içinde ara...">
-</div>
-<div class="flex-spacer"></div>
-<div class="item">
-    <button class="toggle-button"  matTooltip="Puana Göre Sırala" matTooltipClass="primary-tooltip" matTooltipPosition="above"><mat-icon>arrow_downward</mat-icon></button>
-  
-</div>
-</div>
-<div class="content">
-    <movie-card *ngFor="let movie of movies" [movie]="movie" (edit)="openEditDialog($event)" (delete)="deleteMovie($event)"></movie-card>
-</div>
-<div class="footer">
-    <button s-button class="more">
-        Daha Fazla
+    <input type="text" class="search" placeholder="Liste içinde ara..." [formControl]="searchControl">
+  </div>
+  <div class="item">
+    <button class="toggle-button" (click)="sort()" matTooltip="Puana Göre Sırala" matTooltipClass="primary-tooltip"
+      matTooltipPosition="above">
+      <mat-icon>{{ order == 'asc' ? 'arrow_upward' : 'arrow_downward'}}</mat-icon>
     </button>
+
+  </div>
+</div>
+
+<svg role="img" height="100%" aria-labelledby="loading-aria" viewBox="0 0 1040 920" preserveAspectRatio="none"
+  *ngIf="skeleton">
+  <title id="loading-aria">Yükleniyor...</title>
+  <rect x="0" y="0" width="100%" height="100%" clip-path="url(#clip-path)" style='fill: url("#fill");'></rect>
+  <defs>
+    <clipPath id="clip-path">
+      <rect x="0" y="0" rx="10" ry="10" width="200" height="300" />
+      <rect x="210" y="0" rx="10" ry="10" width="200" height="300" />
+      <rect x="420" y="0" rx="10" ry="10" width="200" height="300" />
+      <rect x="630" y="0" rx="10" ry="10" width="200" height="300" />
+      <rect x="840" y="0" rx="10" ry="10" width="200" height="300" />
+      <rect x="0" y="310" rx="10" ry="10" width="200" height="300" />
+      <rect x="210" y="310" rx="10" ry="10" width="200" height="300" />
+      <rect x="420" y="310" rx="10" ry="10" width="200" height="300" />
+      <rect x="630" y="310" rx="10" ry="10" width="200" height="300" />
+      <rect x="840" y="310" rx="10" ry="10" width="200" height="300" />
+    </clipPath>
+    <linearGradient id="fill">
+      <stop offset="0.599964" stop-color="#595959" stop-opacity="1">
+        <animate attributeName="offset" values="-2; -2; 1" keyTimes="0; 0.25; 1" dur="2s" repeatCount="indefinite">
+        </animate>
+      </stop>
+      <stop offset="1.59996" stop-color="#6b6b6b" stop-opacity="1">
+        <animate attributeName="offset" values="-1; -1; 2" keyTimes="0; 0.25; 1" dur="2s" repeatCount="indefinite">
+        </animate>
+      </stop>
+      <stop offset="2.59996" stop-color="#595959" stop-opacity="1">
+        <animate attributeName="offset" values="0; 0; 3" keyTimes="0; 0.25; 1" dur="2s" repeatCount="indefinite">
+        </animate>
+      </stop>
+    </linearGradient>
+  </defs>
+</svg>
+
+<div class="content" *ngIf="!skeleton">
+  <movie-card *ngFor="let movie of movies" [movie]="movie" (edit)="openEditDialog($event)"
+    (delete)="deleteMovie($event)"></movie-card>
+ 
+</div>   
+<div class="no-data" *ngIf="this.movies.length == 0">Henüz içerik girilmedi</div>
+<div class="footer">
+  <button s-button class="more" (click)="getMore()" [disabled]="totalCount == movies.length">
+    Daha Fazla
+  </button>
 </div>
