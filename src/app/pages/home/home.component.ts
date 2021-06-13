@@ -31,9 +31,11 @@ export class HomeComponent implements OnInit {
     private dialogService: DialogService) { }
 
   ngOnInit(): void {
+
     setTimeout(() => { // sadece skeleton'u göstermek için
-      this.getList(this.searchValue, this.pageIndex, 10, this.order, false);
+      this.getList(this.searchValue, this.pageIndex, 10, '', false);
     }, 2000);
+
     this.searchControl.valueChanges
       .pipe(debounceTime(1000))
       .subscribe((keyword: string) => {
@@ -58,7 +60,6 @@ export class HomeComponent implements OnInit {
         this.skeleton = false;
       });
   }
-
 
   openEditDialog(movie: Movie) {
     const dialogRef = this.dialog.open(MovieAddEditDialogComponent, {
@@ -103,6 +104,5 @@ export class HomeComponent implements OnInit {
       this.getMore()
     }
   }
-
 
 }
