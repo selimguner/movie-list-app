@@ -1,6 +1,6 @@
 export const environment = {
   production: true,
-  api_url: '',
+  api_root_url: 'http://www.omdbapi.com',
   api_key: 'c207cbcb',
-  json_server_url: 'localhost:3000'
+  json_server_url: 'http://localhost:3000'
 };
