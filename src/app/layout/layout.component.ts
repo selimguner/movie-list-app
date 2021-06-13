@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ThemeService } from '@core/services/theme.service';
 
 @Component({
   selector: 'app-layout',
@@ -6,11 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./layout.component.scss']
 })
 export class LayoutComponent implements OnInit {
-  constructor() {
+  poster: string = '';
+  constructor(private themeService: ThemeService) {
 
   }
 
   ngOnInit(): void {
+    this.themeService.getBackground().subscribe(res => this.poster = res)
   }
 
 }

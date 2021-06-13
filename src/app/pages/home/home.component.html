@@ -20,7 +20,8 @@
     <input type="text" class="search" placeholder="Liste içinde ara..." [formControl]="searchControl">
   </div>
   <div class="item">
-    <button class="toggle-button" (click)="sort()" [matTooltip]="'Puana Göre Sırala:' + (order == 'asc' ? 'Artan' : 'Azalan')" matTooltipClass="primary-tooltip"
+    <button class="toggle-button" (click)="sort()"
+      [matTooltip]="'Puana Göre Sırala:' + (order == 'asc' ? 'Artan' : 'Azalan')" matTooltipClass="primary-tooltip"
       matTooltipPosition="above">
       <mat-icon>{{ order == 'asc' ? 'arrow_upward' : 'arrow_downward'}}</mat-icon>
     </button>
@@ -63,13 +64,13 @@
 
 <div class="content" *ngIf="!skeleton">
   <movie-card *ngFor="let movie of movies" [movie]="movie" (edit)="openEditDialog($event)"
-    (delete)="deleteMovie($event)"></movie-card>
- 
-</div>   
+    (delete)="deleteMovie($event)" (mouseenter)="changeBg(movie.Poster)"></movie-card>
+
+</div>
 
 <div class="no-data" *ngIf="this.movies.length == 0">
   <mat-icon>movie</mat-icon>
-  Henüz içerik girilmedi
+  Gösterilecek Sonuç Yok
 </div>
 
 <div class="footer">

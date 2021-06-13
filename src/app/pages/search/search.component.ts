@@ -18,6 +18,8 @@ export class SearchComponent implements OnInit {
   overlay = false;
   searchControl: FormControl = new FormControl();
   results: Movie[] = [];
+  noResult: boolean = false;
+  loading: boolean = false;
 
   constructor(public dialog: MatDialog,
     private movieService: MovieService) { }
@@ -26,14 +28,26 @@ export class SearchComponent implements OnInit {
     this.searchControl.valueChanges
       .pipe(debounceTime(1000))
       .subscribe((keyword: string) => this.searchMovie(keyword));
-
   }
 
   searchMovie(keyword: string) {
+
+    this.results = [];
+    this.noResult = false;
+    this.loading = true;
+
     if (keyword.length > 2) {
       this.movieService
         .searchMoviesByTitles(keyword)
-        .subscribe((res: any) => this.results = res.Response == 'True' ? res.Search : []);
+        .subscribe((res: any) => {
+          this.loading = false;
+          if (res.Response == 'True') {
+            this.results = res.Search;
+          } else {
+            this.noResult = true;
+          }
+
+        });
     } else {
       this.results = [];
     }

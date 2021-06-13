@@ -1,8 +1,17 @@
 <div class="search">
     <span class="title">Film veya Dizi Bul</span>
-    <input type="text" [formControl]="searchControl" (focus)="overlay = true">
+    <input type="text" [formControl]="searchControl" (focus)="overlay = true" #input>
     <div class="list-box">
-    <div class="results" data-title="Sonuçlar" *ngIf="results.length>0 && overlay">
+    <div class="results" data-title="Sonuçlar" *ngIf="input.value.length>2 && overlay">
+
+        <div class="no-result" *ngIf="noResult">
+            Sonuç bulunamadı.
+        </div>
+
+        <div class="loading" *ngIf="loading">
+            Aranıyor...
+        </div>
+
         <div class="item" *ngFor="let movie of results" (click)="openDialog(movie)">
             <img [src]="movie.Poster" onError="this.src='assets/no-movie.jpg'"/>
             <div class="text">

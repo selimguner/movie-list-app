@@ -7,11 +7,13 @@ import { Observable, BehaviorSubject } from 'rxjs';
 
 export class ThemeService {
   private isLightTheme: BehaviorSubject<boolean>;
+  private background: BehaviorSubject<string>;
 
   constructor() {
     this.isLightTheme = new BehaviorSubject<boolean>(
       localStorage.getItem('isLightTheme') === 'true'
-    )
+    );
+    this.background = new BehaviorSubject<string>('');
   }
 
   setLightTheme(isLightTheme: boolean) {
@@ -21,5 +23,13 @@ export class ThemeService {
 
   getLightTheme(): Observable<boolean> {
     return this.isLightTheme
+  }
+
+  changeBackground(poster: string) {
+    this.background.next(poster);
+  }
+
+  getBackground(): Observable<string> {
+    return this.background;
   }
 }

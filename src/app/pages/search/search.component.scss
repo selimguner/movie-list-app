@@ -93,6 +93,11 @@
           }
         }
       }
+
+      .no-result,
+      .loading {
+        padding: 10px;
+      }
     }
   }
 }

@@ -1,5 +1,5 @@
 import { Component, HostListener, OnInit } from '@angular/core';
-import { debounceTime, first } from 'rxjs/operators';
+import { debounceTime, first, takeUntil } from 'rxjs/operators';
 import { FormControl } from '@angular/forms';
 import { MatDialog } from '@angular/material/dialog';
 import { DialogService } from '@shared/services/dialog.service';
@@ -7,6 +7,8 @@ import { SnackBarService } from '@shared/services/snackbar.service';
 import { MovieService } from '@core/services/movie.service';
 import { Movie } from '@core/models/movie';
 import { MovieAddEditDialogComponent } from '@shared/components';
+import { ThemeService } from '@core/services/theme.service';
+import { Subject, Subscription } from 'rxjs';
 
 
 @Component({
@@ -18,22 +20,24 @@ import { MovieAddEditDialogComponent } from '@shared/components';
 export class HomeComponent implements OnInit {
   skeleton = true;
   movies: Movie[] = [];
-  order: string = 'desc';
+  order: string = '';
   totalCount!: number;
   pageIndex: number = 1;
   searchValue: string = '';
   searchControl: FormControl = new FormControl();
+  private unsubscribe$ = new Subject<void>();
 
   constructor(
     private movieService: MovieService,
     private dialog: MatDialog,
     private snackBar: SnackBarService,
-    private dialogService: DialogService) { }
+    private dialogService: DialogService,
+    private themeService: ThemeService) { }
 
   ngOnInit(): void {
 
     setTimeout(() => { // sadece skeleton'u göstermek için
-      this.getList(this.searchValue, this.pageIndex, 10, '', false);
+      this.getList(this.searchValue, this.pageIndex, 10, '', true);
     }, 2000);
 
     this.searchControl.valueChanges
@@ -44,13 +48,20 @@ export class HomeComponent implements OnInit {
       });
   }
 
+  ngOnDestroy() {
+    this.unsubscribe$.next();
+    this.unsubscribe$.complete();
+  }
+
   getList(keyword: string, page: number, limit: number, order: string, clear: boolean) {
     this.skeleton = clear;
     this.movieService
       .getMovieList(keyword, page, limit, order)
       .pipe(first())
+      .pipe(takeUntil(this.unsubscribe$))
       .subscribe((res: any) => {
         this.totalCount = res.totalCount;
+        this.changeBg(res.result[0].Poster)
         if (clear) {
           this.movies = res.result;
           this.pageIndex = 1;
@@ -79,7 +90,7 @@ export class HomeComponent implements OnInit {
     this.dialogService.deleteDialog().afterClosed().subscribe(res => {
       if (res) {
         this.movieService.removeMovie(movie.id).subscribe((res) => {
-          this.getList(this.searchValue, 1, this.movies.length, this.order, true);
+          this.getList(this.searchValue, 1, this.movies.length, '', true);
           this.snackBar.open(movie.Title + ' Filmi Silinmiştir', 'success');
         });
       }
@@ -88,8 +99,7 @@ export class HomeComponent implements OnInit {
 
   sort() {
     this.order = this.order == 'asc' ? 'desc' : 'asc';
-    this.pageIndex = 1;
-    this.getList(this.searchValue, this.pageIndex, this.movies.length, this.order, true);
+    this.getList(this.searchValue, 1, this.movies.length, this.order, true);
   }
 
   getMore() {
@@ -99,10 +109,14 @@ export class HomeComponent implements OnInit {
   }
 
   @HostListener('window:scroll', ['$event'])
-  onScrollEvent($event: any) {
+  onScrollEvent(e: any) {
     if ((document.body.clientHeight + window.scrollY) == document.body.scrollHeight) {
       this.getMore()
     }
+  }
+
+  changeBg(poster: string) {
+    this.themeService.changeBackground(poster.replace('SX300', 'SX2000'));
   }
 
 }

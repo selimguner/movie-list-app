@@ -12,7 +12,7 @@ Fake backend için [JSON Server](https://github.com/typicode/json-server) kurulm
  npm install -g json-server 
 ``` 
 
- Proje dizininde `npm run server` yazdıktan sonra json-server çalışmaya başlayacaktır. 
+Proje dizininde `npm run server` yazdıktan sonra json-server çalışmaya başlayacaktır. 
 
- daha sonra `ng serve` ile projeyi çalıştırmanız gerekiyor.
+`npm install` ile bağımlı paket yüklemeleri yapıldıktan sonra  `ng serve` ile projeyi çalıştırabilirsiniz.
 
