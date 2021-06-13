@@ -1,15 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
-import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
-import { MovieService } from 'src/app/data/services/movie.service';
-import { MovieAddEditDialogComponent } from 'src/app/shared/components';
+import { MatDialog } from '@angular/material/dialog';
+import { MovieService } from '@core/services/movie.service';
+import { MovieAddEditDialogComponent } from '@shared/components';
 import { debounceTime } from "rxjs/operators";
+import { Movie } from '@core/models/movie';
 
-interface Movie {
-  Title: string,
-  Poster: string,
-  Year: string
-}
+
 
 @Component({
   selector: 'app-search',
@@ -22,13 +19,14 @@ export class SearchComponent implements OnInit {
   searchControl: FormControl = new FormControl();
   results: Movie[] = [];
 
-  constructor(public dialog: MatDialog, private movieService: MovieService) { }
+  constructor(public dialog: MatDialog,
+    private movieService: MovieService) { }
 
   ngOnInit(): void {
-    this.searchControl
-      .valueChanges
+    this.searchControl.valueChanges
       .pipe(debounceTime(1000))
       .subscribe((keyword: string) => this.searchMovie(keyword));
+
   }
 
   searchMovie(keyword: string) {
@@ -42,11 +40,12 @@ export class SearchComponent implements OnInit {
   }
 
   openDialog(movie: Movie): void {
-    const dialogRef = this.dialog.open(MovieAddEditDialogComponent, {
-      width: '550px',
-      disableClose: true,
-      data: movie
-    });
+    const dialogRef = this.dialog
+      .open(MovieAddEditDialogComponent, {
+        width: '550px',
+        disableClose: true,
+        data: { isEdit: false, movie: movie }
+      });
 
     dialogRef.afterClosed().subscribe(result => {
       if (result == 'success') {

@@ -1,4 +1,5 @@
-<div mat-dialog-title>Ekle
+<div mat-dialog-title>
+  {{dialogData.isEdit ? 'Düzenle' : 'Ekle'}}
   <button s-button class="icon-button" mat-dialog-close>
     <mat-icon>close</mat-icon>
   </button>
@@ -6,7 +7,7 @@
 <div mat-dialog-content>
   <div class="form-content">
     <img class="poster"
-      [src]="movie.Poster">
+      [src]="dialogData.movie.Poster">
     <form class="form" [formGroup]="movieForm">
       <div class="item">
         <input type="text" name="title" formControlName="title">
@@ -21,7 +22,8 @@
   </div>
 </div>
 <div mat-dialog-actions>
-  <button s-button  mat-dialog-close>Vazgeç</button>
+  <button s-button mat-dialog-close>Vazgeç</button>
   <div class="flex-spacer"></div>
-  <button s-button class="primary" cdkFocusInitial (click)="addMyList()">Kaydet</button>
+  <button s-button class="primary" cdkFocusInitial *ngIf="!dialogData.isEdit" (click)="addMyList()">Kaydet</button>
+  <button s-button class="primary" *ngIf="dialogData.isEdit" [disabled]="!movieForm.dirty" (click)="updateMovieRating(dialogData.movie.id)">Güncelle</button>
 </div>

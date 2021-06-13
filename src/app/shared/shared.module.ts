@@ -10,6 +10,8 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDialogModule } from '@angular/material/dialog';
 import { OverlayModule } from '@angular/cdk/overlay';
+import { SnackBarService } from './services/snackbar.service';
+import { DialogService } from './services/dialog.service';
 
 // 3rd party
 
@@ -20,18 +22,22 @@ const materialModules = [
   MatTooltipModule,
   MatIconModule,
   MatDialogModule,
-  OverlayModule
+  OverlayModule,
 ]
 
 @NgModule({
   declarations: [
-    ...fromComponents.components,
+    ...fromComponents.components
   ],
   imports: [
     CommonModule,
     FormsModule,
     ReactiveFormsModule,
     ...materialModules
+  ],
+  providers: [
+    SnackBarService,
+    DialogService
   ],
   exports: [
     FormsModule,
