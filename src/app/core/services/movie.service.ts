@@ -23,13 +23,17 @@ export class MovieService {
     return this.http.get(this.API_URL, { params });
   }
 
-  getMovieList(title: string, page: number, limit: number = 10, sort: string = 'asc') {
+  getMovieList(title: string, page: number, limit: number = 10, sort: string = '') {
     let params = new HttpParams()
       .set('q', title)
       .set('_page', page)
       .set('_limit', limit)
-      .set('_sort', 'Rating,id')
-      .set('_order', sort + ',desc');
+
+    if (sort != '') {
+      params = params.set('_sort', 'Rating,id').set('_order', sort + ',desc')
+    } else {
+      params = params.set('_sort', 'id').set('_order', 'desc')
+    }
 
     let list = this.http.get<Movie[]>(this.JSON_SERVER_URL + '/movies', { params, observe: 'response' })
       .pipe(map(res => {

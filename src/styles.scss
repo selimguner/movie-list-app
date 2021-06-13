@@ -226,8 +226,16 @@ input {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   width: 100%;
   height: 500px;
+
+  mat-icon {
+    font-size: 62px;
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
+  }
 }
 
 snack-bar-container {
