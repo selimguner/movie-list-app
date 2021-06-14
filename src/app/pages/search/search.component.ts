@@ -1,12 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
-import { MatDialog } from '@angular/material/dialog';
-import { MovieService } from '@core/services/movie.service';
-import { MovieAddEditDialogComponent } from '@shared/components';
 import { debounceTime } from "rxjs/operators";
+import { MatDialog } from '@angular/material/dialog';
+import { MovieAddEditDialogComponent } from '@shared/components';
 import { Movie } from '@core/models/movie';
-
-
+import { MovieService } from '@core/services/movie.service';
 
 @Component({
   selector: 'app-search',

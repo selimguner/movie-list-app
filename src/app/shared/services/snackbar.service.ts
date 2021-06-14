@@ -12,7 +12,7 @@ export class SnackBarService {
   open(message: string, color?: string, duration = 2000) {
     this.zone.run(() => {
       if (message) {
-        this.snackBarRef = this.snackBar.open(message.replace(/<\/?[^>]+(>|$)/g, ""), '',
+        this.snackBarRef = this.snackBar.open(message, '',
           {
             duration,
             horizontalPosition: 'center',

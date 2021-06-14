@@ -1,14 +1,17 @@
 import { Component, HostListener, OnInit } from '@angular/core';
 import { debounceTime, first, takeUntil } from 'rxjs/operators';
+import { Subject } from 'rxjs';
 import { FormControl } from '@angular/forms';
 import { MatDialog } from '@angular/material/dialog';
+
+import { Movie } from '@core/models/movie';
+
+import { MovieAddEditDialogComponent } from '@shared/components';
+
+import { ThemeService } from '@core/services/theme.service';
 import { DialogService } from '@shared/services/dialog.service';
 import { SnackBarService } from '@shared/services/snackbar.service';
 import { MovieService } from '@core/services/movie.service';
-import { Movie } from '@core/models/movie';
-import { MovieAddEditDialogComponent } from '@shared/components';
-import { ThemeService } from '@core/services/theme.service';
-import { Subject, Subscription } from 'rxjs';
 
 
 @Component({
@@ -41,7 +44,7 @@ export class HomeComponent implements OnInit {
     }, 2000);
 
     this.searchControl.valueChanges
-      .pipe(debounceTime(1000))
+      .pipe(debounceTime(800))
       .subscribe((keyword: string) => {
         this.searchValue = keyword;
         this.getList(this.searchValue, 1, 10, this.order, true);
@@ -61,13 +64,13 @@ export class HomeComponent implements OnInit {
       .pipe(takeUntil(this.unsubscribe$))
       .subscribe((res: any) => {
         this.totalCount = res.totalCount;
-        this.changeBg(res.result[0].Poster)
         if (clear) {
           this.movies = res.result;
           this.pageIndex = 1;
         } else {
           this.movies.push(...res.result);
         }
+        this.changeBg(res.result.length > 0 ? res.result[0].Poster : '');
         this.skeleton = false;
       });
   }

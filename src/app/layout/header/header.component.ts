@@ -14,7 +14,6 @@ export class HeaderComponent implements OnInit {
     this.theme.getLightTheme().subscribe(res => { this.isLightTheme = res; });
   }
 
-
   changeTheme() {
     this.theme.setLightTheme(!this.isLightTheme);
   }

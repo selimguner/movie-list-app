@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
+// components
 import * as fromComponents from './components';
 
 // material
@@ -10,10 +12,11 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDialogModule } from '@angular/material/dialog';
 import { OverlayModule } from '@angular/cdk/overlay';
+
+// services
 import { SnackBarService } from './services/snackbar.service';
 import { DialogService } from './services/dialog.service';
 
-// 3rd party
 
 
 const materialModules = [

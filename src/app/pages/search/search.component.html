@@ -1,6 +1,6 @@
 <div class="search">
     <span class="title">Film veya Dizi Bul</span>
-    <input type="text" [formControl]="searchControl" (focus)="overlay = true" #input>
+    <input type="text" placeholder="Ara..." [formControl]="searchControl" (focus)="overlay = true" #input>
     <div class="list-box">
     <div class="results" data-title="Sonuçlar" *ngIf="input.value.length>2 && overlay">
 

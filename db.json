@@ -123,13 +123,13 @@
     {
       "Title": "Game of Thrones",
       "Poster": "https://m.media-amazon.com/images/M/MV5BYTRiNDQwYzAtMzVlZS00NTI5LWJjYjUtMzkwNTUzMWMxZTllXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_SX300.jpg",
-      "Rating": 10,
+      "Rating": 9,
       "id": 31
     },
     {
       "Title": "The Mandalorian",
       "Poster": "https://m.media-amazon.com/images/M/MV5BZDhlMzY0ZGItZTcyNS00ZTAxLWIyMmYtZGQ2ODg5OWZiYmJkXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_SX300.jpg",
-      "Rating": 10,
+      "Rating": 8,
       "id": 32
     }
   ]

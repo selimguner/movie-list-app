@@ -8,9 +8,8 @@ import { ThemeService } from '@core/services/theme.service';
 })
 export class LayoutComponent implements OnInit {
   poster: string = '';
-  constructor(private themeService: ThemeService) {
 
-  }
+  constructor(private themeService: ThemeService) { }
 
   ngOnInit(): void {
     this.themeService.getBackground().subscribe(res => this.poster = res)

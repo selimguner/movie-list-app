@@ -4,18 +4,10 @@ $text-hover-color: #e9e9e9;
 $light-text-color: #1C1C23;
 $light-text-active-color: #000000;
 $light-text-hover-color: #25252c;
-$filter-bg-color:28,
-28,
-35;
-$light-filter-bg-color:195,
-195,
-195;
-$background-color: 28,
-28,
-35;
-$light-background-color: 255,
-255,
-255;
+$filter-bg-color:28,28,35;
+$light-filter-bg-color:195,195,195;
+$background-color: 28,28,35;
+$light-background-color: 255,255,255;
 $input-bg-color: #ffffff;
 $input-border-color: #d0d0d0;
 
@@ -107,6 +99,10 @@ input {
   font-size: 12px;
   border-radius: 5px;
   box-sizing: border-box;
+
+  &:disabled {
+    background: #dadada;
+  }
 }
 
 [s-button] {
@@ -200,7 +196,6 @@ input {
 }
 
 
-// dialog
 [mat-dialog-title] {
   position: relative;
   user-select: none;

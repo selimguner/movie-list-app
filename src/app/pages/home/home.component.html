@@ -1,24 +1,8 @@
 <div class="filters">
-  <div class="item" *ngIf="false">
-    <div class="genres">
-      <button class="toggle-button active" matTooltip="Müzikal" matTooltipClass="primary-tooltip"
-        matTooltipPosition="above">
-        <img src="../../../assets/icon.svg">
-      </button>
-      <button class="toggle-button icon-button">
-        <img src="../../../assets/icon.svg">
-      </button>
-      <button class="toggle-button icon-button">
-        <img src="../../../assets/icon.svg">
-      </button>
-      <button class="toggle-button icon-button">
-        <img src="../../../assets/icon.svg">
-      </button>
-    </div>
-  </div>
   <div class="item">
     <input type="text" class="search" placeholder="Liste içinde ara..." [formControl]="searchControl">
   </div>
+  <div class="flex-spacer"></div>
   <div class="item">
     <button class="toggle-button" (click)="sort()"
       [matTooltip]="'Puana Göre Sırala:' + (order == 'asc' ? 'Artan' : 'Azalan')" matTooltipClass="primary-tooltip"

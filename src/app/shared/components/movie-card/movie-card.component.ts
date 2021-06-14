@@ -1,10 +1,5 @@
-import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
-
-interface Movie {
-  title: string,
-  poster: string,
-  rating: string
-}
+import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Movie } from '@core/models/movie';
 
 @Component({
   selector: 'movie-card',

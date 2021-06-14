@@ -9,7 +9,6 @@ import { environment } from '@env';
 })
 
 export class MovieService {
-
   private readonly API_URL = environment.api_root_url;
   private readonly API_KEY = environment.api_key;
   private readonly JSON_SERVER_URL = environment.json_server_url;
@@ -28,7 +27,6 @@ export class MovieService {
       .set('q', title)
       .set('_page', page)
       .set('_limit', limit)
-
     if (sort != '') {
       params = params.set('_sort', 'Rating,id').set('_order', sort + ',desc')
     } else {
@@ -40,6 +38,7 @@ export class MovieService {
         let data = { "totalCount": res.headers.get('X-Total-Count'), "result": res.body }
         return data;
       }));
+
     return list;
   }
 
@@ -54,5 +53,4 @@ export class MovieService {
   removeMovie(id: number) {
     return this.http.delete(this.JSON_SERVER_URL + '/movies/' + id).pipe(map((data => data)))
   }
-
 }
